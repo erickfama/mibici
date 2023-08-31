@@ -85,10 +85,8 @@ After cleaning the datasets, K-Means algorithm was applied to create 4 station c
 
 Before clustering
 
-![](https://github.com/erickfama/mibici/tree/main/figs/1_dist_estaciones.png)
+![stations_map](https://github.com/erickfama/mibici/tree/main/figs/1_dist_estaciones.png)
 
 After clustering
 
-![](https://github.com/erickfama/mibici/tree/main/figs/7_estaciones_cluster.png)
-
-![]()
+![stations_clusters](https://github.com/erickfama/mibici/tree/main/figs/7_estaciones_cluster.png)
