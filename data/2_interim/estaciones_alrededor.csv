@@ -1,0 +1,301 @@
+CLAVE;or_fem;or_masc;dest_fem;dest_masc;POLIG;ETAPA;Cruce_C;Acera;Ubicacion;X_1;Y_1;Puertos;biciestacorta;len_confi;len_segre;transmas;paradatp;area_averde;pobocup;abarrotes;bancos;bares;comidacafe;gobierno;estmibici;puertmibici;recreat;edubascimed;educativo;hospitales;servmedic;universidad;superdepa;intersec
+GDL-001;188;743;243;863;Guadalajara Centro;1ra ETAPA;C. Epigmenio Glez./ Av. 16 de Septiembre;Norte;Arroyo Vehicular;-103,34882;20,666378;11;0;205,2413316;0;1;8;5995,2858;3580;18;5;2;34;9;1;15;2;1;0;0;3;0;4;222
+GDL-002;224;690;237;531;Guadalajara Centro;1ra ETAPA;C. Colonias  / Av.  NiÒos HÈroes;Poniente;Arroyo Vehicular;-103,366;20,667228;15;0;0;414,2073291;0;5;1061,9962;2826,5;14;4;3;36;2;1;19;3;1;8;0;14;3;3;210
+GDL-003;362;1015;394;971;Guadalajara Centro;1ra ETAPA;C. Vidrio / Av. Chapultepec;Norte;Arroyo Vehicular;-103,368252;20,66769;19;0;0;473,1282149;0;8;21678,5945;2607;4;11;6;33;0;2;34;2;2;7;0;10;2;4;246
+GDL-004;358;774;350;837;Guadalajara Centro;1ra ETAPA;C. Ghilardi / C. Miraflores;Norte;Arroyo Vehicular;-103,36255;20,69175;11;1;0;289,4730225;0;6;2193,9492;988;31;2;0;17;4;0;0;1;5;1;0;5;1;0;290
+GDL-005;119;663;249;767;Guadalajara Centro;1ra ETAPA;C. San Diego / Calzada Independencia;Sur;Arroyo Vehicular;-103,338863;20,681151;11;0;0;0;1;11;98425,2541;682;12;1;3;21;2;1;15;2;1;3;0;5;0;1;288
+GDL-006;102;561;148;597;Guadalajara Centro;1ra ETAPA;C. Venustiano Carranza / C. Reforma;Norte;Arroyo Vehicular;-103,344415;20,680717;11;1;0;0;0;17;3187,1578;1113;32;2;0;15;5;2;22;2;4;4;0;7;2;0;292
+GDL-007;428;788;495;914;Guadalajara Centro;1ra ETAPA;C. Epigmenio Gonz·lez / Av. Cristobal C.;Sur;Arroyo Vehicular;-103,350562;20,666771;15;0;0;0;0;6;5995,2858;2727;22;4;1;33;6;2;22;3;3;1;1;3;0;3;210
+GDL-008;329;879;422;866;Guadalajara Centro;1ra ETAPA;C. J. Angulo / C. Gonz·lez Ortega;Sur;Arroyo Vehicular;-103,350396;20,681871;15;0;0;0;0;14;18030,1873;2072,5;27;1;1;34;3;1;15;2;12;1;0;19;1;1;372
+GDL-009;1259;3002;1220;2813;Guadalajara Centro;1ra ETAPA;Calz. Federalismo / C. J. Angulo;Oriente;Banqueta;-103,353835;20,681984;19;1;986,6113548;0;1;10;18126,6696;1520,5;9;0;0;12;3;0;0;1;7;1;0;17;1;0;288
+GDL-010;487;1099;570;1109;Guadalajara Centro;1ra ETAPA;C. Cruz Verde / C. Joaquin Angulo;Poniente;Arroyo Vehicular;-103,357267;20,681786;11;0;0;0;0;13;0;1614,5;57;0;0;65;1;0;0;2;4;0;1;6;0;0;228
+GDL-011;281;693;263;668;Guadalajara Centro;1ra ETAPA;C. Garibaldi / C. FrÌas;Sur;Arroyo Vehicular;-103,360099;20,681081;11;0;0;0;0;14;0;2437,5;19;6;0;34;1;1;15;0;3;1;3;11;0;1;246
+GDL-012;293;634;327;516;Guadalajara Centro;1ra ETAPA;C. JoaquÌn Angulo / C. Ghilardi;Norte;Arroyo Vehicuar;-103,36292;20,681989;11;0;233,6103488;0;0;11;0;959,5;15;0;0;18;0;0;0;1;9;2;1;7;0;0;246
+GDL-013;181;569;159;492;Guadalajara Centro;1ra ETAPA;C. Vidrio / C. Marsella;Sur;Arroyo Vehicular;-103,370499;20,667623;11;0;0;470,052086;0;9;15631,0898;2024;2;1;2;21;0;1;15;1;3;5;0;21;1;4;240
+GDL-014;774;1424;679;1513;Guadalajara Centro;1ra ETAPA;C. J. Angulo / C. JosÈ Clemente Orozco;Sur;Arroyo Vehicular;-103,365969;20,682059;15;0;497,666116;0;0;7;0;2343,5;24;3;0;33;0;0;0;4;5;3;1;20;0;1;228
+GDL-015;616;1323;534;1351;Guadalajara Centro;1ra ETAPA;C. Herrera y Cairo / C. Pedro Buzeta;Norte;Arroyo Vehiuclar;-103,369349;20,683191;15;0;434,416101;0;0;13;0;2590,5;97;8;2;66;1;0;0;3;3;4;0;14;0;2;264
+GDL-016;355;771;266;717;Guadalajara Centro;1ra ETAPA;C. Bernardo de Balbuena / C. J. Angulo;Poniente;Arroyo Vehicular;-103,372642;20,682007;15;0;306,844159;0;0;14;0;1693;22;5;1;23;3;0;0;1;9;2;0;32;2;1;264
+GDL-017;396;827;351;705;Guadalajara Centro;1ra ETAPA;Av. MÈxico / C. Bernardo de Balbuena;Sur;Arroyo Vehicular;-103,372841;20,679086;15;0;990,4909697;0;0;10;6471,3597;2118,5;8;4;6;23;0;1;11;1;2;7;1;35;3;0;182
+GDL-018;337;886;270;809;Guadalajara Centro;1ra ETAPA;Av. MÈxico / C. Manuel M. DiÈguez;Norte;Arroyo Vehicular;-103,370658;20,679296;11;0;986,858361;0;0;8;14776,8151;2066,5;10;1;6;28;2;1;15;1;5;1;1;56;0;0;186
+GDL-019;796;1527;697;1402;Guadalajara Centro;1ra ETAPA;C. Juan Manuel / C. AndrÈs Ter·n;Sur;Arroyo Vehicular;-103,368045;20,678835;19;0;773,7988137;0;0;8;19097,0954;2568,5;9;4;8;32;3;0;0;3;1;3;0;34;0;1;240
+GDL-021;395;964;280;1014;Guadalajara Centro;1ra ETAPA;C. Nicol·s Romero / C. Reforma;Poniente;Arroyo Vehicular;-103,362224;20,67966;15;0;1,835699406;0;0;11;1302,5354;1604;16;2;1;37;1;0;0;1;5;2;2;13;0;1;318
+GDL-022;218;727;222;640;Guadalajara Centro;1ra ETAPA;C. San Felipe / Av. Enrique DÌaz de LeÛn;Sur;Arroyo Vehicular;-103,35913;20,679389;15;0;0;0;0;12;4155,963;2158;17;9;0;27;0;2;26;2;4;1;2;11;1;2;252
+GDL-023;314;646;371;652;Guadalajara Centro;1ra ETAPA;C. Jes˙s / C. San Felipe;Poniente;Arroyo Vehicuar;-103,356281;20,679309;15;0;461,8424027;0;0;7;4155,963;969,5;15;0;1;17;0;0;0;3;4;4;0;13;1;0;294
+GDL-024;492;1056;441;935;Guadalajara Centro;1ra ETAPA;Av. Federalismo / C. Juan Manuel;Oriente;Banqueta;-103,354035;20,678777;15;0;1330,34923;0;0;11;0;1784;15;1;5;12;4;1;11;3;4;7;0;13;3;0;360
+GDL-025;537;1570;565;1481;Guadalajara Centro;1ra ETAPA;C. Reforma / C. Gonz·lez Ortega;Sur;Arroyo Vehicular;-103,350146;20,680227;15;0;0;0;0;18;15485,2273;3335;78;1;4;43;4;2;30;5;10;4;0;10;2;2;318
+GDL-026;539;1500;601;1401;Guadalajara Centro;1ra ETAPA;C. Pedro Loza / C. Reforma;Poniente;Andador;-103,348377;20,680478;15;0;0;939,1895588;0;14;27937,1667;3287;65;2;3;52;5;1;15;10;9;6;0;15;1;6;348
+GDL-027;265;647;267;779;Guadalajara Centro;1ra ETAPA;C. BelÈn / C. San Felipe;Poniente;Arroyo Vehicular;-103,345198;20,679861;11;1;0;39,27106248;0;17;11296,7057;2115,5;19;2;1;28;14;1;11;2;5;7;0;1;4;1;352
+GDL-028;426;894;410;847;Guadalajara Centro;1ra ETAPA;C. Gregorio D·vila / C. Manuel AcuÒa;Oriente;Arroyo Vehicular;-103,36113;20,684187;11;0;0;0;0;12;0;1230,5;15;0;0;12;0;0;0;3;4;1;0;7;1;1;246
+GDL-029;223;699;321;965;Guadalajara Centro;1ra ETAPA;Calz. Independencia / C. Juan Manuel;Poniente;Banqueta;-103,339438;20,679899;15;0;0;0;1;9;95431,464;1276;14;5;8;29;2;1;11;2;2;2;1;2;0;2;216
+GDL-030;402;1187;408;1131;Guadalajara Centro;1ra ETAPA;C. Pedro Moreno / C. Progreso;Sur;Arroyo Vehicular;-103,367501;20,675461;19;0;710,4254284;0;0;9;29543,7892;5183;3;15;13;41;4;2;38;2;1;8;1;14;4;3;198
+GDL-031;596;1108;559;1150;Guadalajara Centro;1ra ETAPA;C. Hospital / C. AndrÈs Ter·n;Norte;Arroyo Vehicular;-103,368215;20,685652;11;0;0;0;0;6;0;2577;100;7;2;79;1;0;0;4;3;4;2;17;0;1;342
+GDL-032;532;1711;692;2187;Guadalajara Centro;1ra ETAPA;C. Degollado / Av. Hidalgo;Oriente;Banqueta;-103,344908;20,6772627;15;0;0;0;0;5;121719,581;4668;17;9;2;61;17;1;15;7;3;5;0;2;1;2;336
+GDL-033;813;2338;879;2438;Guadalajara Centro;1ra ETAPA;Av. Hidalgo / C. Pedro Loza;Norte;Banqueta;-103,347983;20,677419;15;2;0;959,6499834;1;2;148557,1455;8066;135;12;5;146;15;1;11;12;3;6;0;4;2;10;330
+GDL-034;305;1143;286;1113;Guadalajara Centro;1ra ETAPA;C. Morelos / C. Donato Guerra;Sur;Banqueta;-103,350244;20,676461;11;2;110,8764778;0;1;7;58556,3345;8241,5;112;18;8;159;2;1;15;10;4;12;0;13;5;9;324
+GDL-035;187;565;193;512;Guadalajara Centro;1ra ETAPA;C. Mezquit·n / Av. Hidalgo;Oriente;Banqueta;-103,3534145;20,677315;11;0;1394,884653;0;0;12;1635,1014;2635,5;13;6;14;32;4;2;38;2;3;9;0;11;4;4;366
+GDL-036;819;1777;880;1596;Guadalajara Centro;1ra ETAPA;C. Marcos Castellanos / C. Morelos;Oriente;Arroyo Vehicular;-103,356458;20,676078;19;3;1266,098156;0;2;11;89868,5605;2706;9;8;18;38;5;2;54;5;1;9;3;15;5;6;342
+GDL-037;262;731;285;603;Guadalajara Centro;1ra ETAPA;C. Juan N. Cumplido / C. Independencia;Oriete;Arroyo Vehicular;-103,358466;20,678034;15;0;452,9066515;0;0;12;4155,963;1622,5;14;7;6;24;1;1;15;5;4;9;2;12;4;1;306
+GDL-038;303;705;313;602;Guadalajara Centro;1ra ETAPA;C. Nicol·s Romero / Av. Hidalgo;Poniente;Arroyo Vehicular;-103,362331;20,676656;15;0;490,2212571;0;0;12;1302,5354;2136,5;6;0;3;33;5;2;30;1;1;6;0;11;6;0;288
+GDL-039;218;414;177;297;Guadalajara Centro;1ra ETAPA;C. General Coronado / Av. Hidalgo;Oriente;Arroyo Vehicular;-103,365088;20,677108;15;0;491,6178236;0;0;7;0;2320;6;1;5;30;2;3;41;2;2;4;1;16;3;0;258
+GDL-040;431;1060;537;1262;Guadalajara Centro;1ra ETAPA;C. Morelos / C. Progreso;Sur;Arroyo Vehicular;-103,367049;20,676067;15;0;461,2944036;0;0;10;28124,183;4967;5;9;9;44;3;4;68;2;1;7;1;33;4;2;210
+GDL-041;297;735;270;664;Guadalajara Centro;1ra ETAPA;C. Manuel M. DiÈguez / Av. Hidalgo;Poniente;Arroyo Vechiular;-103,37066;20,67671;15;0;492,9655313;0;0;9;24954,9108;6099;10;13;8;36;10;3;49;3;0;10;1;70;4;3;210
+GDL-042;277;625;246;451;Guadalajara Centro;1ra ETAPA;C. Bernardo de Balbuena /Av Hidalgo;Poniente;Arroyo Vehicular;-103,372687;20,676628;15;0;494,9939185;0;0;12;0;3327,5;9;7;6;18;5;2;30;2;0;10;1;43;3;0;210
+GDL-043;434;940;325;931;Guadalajara Centro;1ra ETAPA;C. SimÛn Bolivar / C. LÛpez Cotilla;Poniente;Arroyo Vehicular;-103,372613;20,673756;11;0;836,2538783;0;0;9;0;4841,5;6;14;4;38;2;3;49;4;0;12;0;21;6;3;210
+GDL-044;290;757;325;693;Guadalajara Centro;1ra ETAPA;C. Gral. San MartÌn / Av. Vallarta;Oriente;Arroyo Vehicular;-103,371639;20,674636;15;0;623,1535931;0;0;8;0;5076;12;17;12;48;8;5;79;6;0;12;0;19;3;4;186
+GDL-045;238;644;147;522;Guadalajara Centro;1ra ETAPA;C. Pedro Moreno / C. Marsella;Norte;Arroyo Vehicular;-103,370147;20,675444;19;0;696,3644303;0;0;10;23448,0778;7977,5;12;21;18;64;13;2;30;6;1;13;0;15;5;5;174
+GDL-046;190;488;181;446;Guadalajara Centro;1ra ETAPA;C. Emerson / Av. Vallarta;Oriente;Arroyo Vehicular;-103,365025;20,675014;11;0;696,7340984;0;0;8;2536,3551;3280;5;4;3;35;7;4;68;1;1;8;0;15;4;1;288
+GDL-047;486;1068;402;940;Guadalajara Centro;1ra ETAPA;C. Robles Gil / Av. Vallarta;Poniente;Arroyo Vehicular;-103,362351;20,674931;15;0;657,0795227;0;0;10;0;2331;7;1;4;32;5;2;30;0;0;11;0;15;8;0;270
+GDL-048;1289;3042;1336;3078;Guadalajara Centro;1ra ETAPA;C. Constancio Hern·ndez A. / Av. Ju·rez;Oriente;Andador;-103,358548;20,674721;15;1;481,2891749;0;0;12;25477,6295;3788,5;13;2;21;54;14;2;54;7;4;19;2;22;14;3;324
+GDL-049;1902;4551;3101;5790;Guadalajara Centro;1ra ETAPA;C. Lopez Cotilla / C. Marcos Castellanos;Sur;Arroyo Vehicular;-103,3563196;20,6740865;31;3;1113,04151;0;2;9;97352,1258;2715;8;8;16;55;6;4;72;3;6;10;0;8;3;5;342
+GDL-050;1079;2862;1157;2662;Guadalajara Centro;1ra ETAPA;C. Pedro Moreno / Calz. Federalismo;Norte;Arroyo Vehicular;-103,354579;20,675746;23;3;1490,968634;0;2;12;96614,3553;4082,5;6;12;18;52;5;3;45;4;5;10;0;16;3;8;324
+GDL-051;595;1686;613;1791;Guadalajara Centro;1ra ETAPA;C. 8 de Julio / Av. Ju·rez;Sur;Andador;-103,352663;20,674559;15;2;568,0058183;0;2;15;8406,1598;5115,5;11;10;22;63;3;2;34;6;7;17;0;23;7;10;342
+GDL-052;838;2421;937;2652;Guadalajara Centro;1ra ETAPA;Av. Ju·rez / Av. 16 de Septiembre;Norte;Banqueta;-103,347889;20,675244;23;2;0;976,2161403;2;3;92157,2612;10071;41;29;5;107;9;2;38;15;1;12;0;9;6;15;336
+GDL-053;113;440;129;416;Guadalajara Centro;1ra ETAPA;C. Maestranza / Av. Ju·rez;Oriente;Arroyo Vehicular;-103,345665;20,675401;15;1;0;729,3493558;1;3;100736,0253;7352;18;18;2;62;16;3;61;11;0;5;0;2;1;15;306
+GDL-054;505;1804;630;2317;Guadalajara Centro;1ra ETAPA;Av. Ju·rez / Calz. Independencia;Norte;Banqueta;-103,342049;20,675421;23;1;0;0;2;4;66999,0808;6651;21;42;3;61;16;1;23;6;0;2;0;0;1;9;366
+GDL-055;54;460;106;534;Guadalajara Centro;1ra ETAPA;C. Degollado / C.Prisciliano S·nchez;Poniente;Banqueta;-103,345366;20,672696;15;0;765,718288;574,2519294;0;8;46743,0359;3856;12;16;11;43;10;2;34;5;0;7;0;4;2;11;366
+GDL-056;758;2128;889;2611;Guadalajara Centro;1ra ETAPA;Av. 16 de Septiembre / C. Miguel Blanco;Norte;Banqueta;-103,347422;20,671971;19;0;611,1524964;559,7813019;0;19;41836,2827;5156;18;22;17;65;8;4;56;7;6;9;0;8;5;11;398
+GDL-057;147;796;165;863;Guadalajara Centro;1ra ETAPA;C. Ocampo / C. Prisciliano S·nchez;Poniente;Banqueta;-103,349573;20,672516;11;0;0;0;0;21;17612,274;4124,5;16;5;14;52;7;1;19;6;6;19;0;16;6;7;306
+GDL-058;197;565;189;744;Guadalajara Centro;1ra ETAPA;C. Pavo / C. Prisciliano S·nchez;Poniente;Arroyo Vehicular;-103,353542;20,672641;11;0;923,4905106;0;0;13;462,1928;3266;9;4;12;31;1;3;41;2;4;12;3;29;6;2;354
+GDL-059;289;576;279;536;Guadalajara Centro;1ra ETAPA;C. Miguel Blanco / C. Penitenciaria;Sur;Arroyo Vehicular;-103,355508;20,672231;15;0;1270,136151;0;0;9;3647,1318;2192,5;8;2;4;29;1;4;84;1;4;10;3;19;5;3;330
+GDL-060;502;1028;472;1112;Guadalajara Centro;1ra ETAPA;C. Madero / C. Camarena;Sur;Arroyo Vehicular;-103,357684;20,6734;23;1;473,9371218;0;0;11;69032,193;3155,5;11;5;14;45;14;3;61;3;5;16;1;14;12;2;324
+GDL-061;595;1266;659;1213;Guadalajara Centro;1ra ETAPA;C. Libertad / C. Argentina;Norte;Arroyo Vehicular;-103,361274;20,671778;19;0;603,7501601;0;0;7;241,055;2390,5;20;1;2;50;2;2;26;1;2;10;1;17;6;2;300
+GDL-062;559;1153;512;1248;Guadalajara Centro;1ra ETAPA;C. Libertad / C. Mosc˙;Norte;Arroyo Vehicular;-103,365055;20,673072;15;0;886,3261153;0;0;7;2536,3551;3435,5;2;3;3;29;6;2;34;2;1;8;0;4;3;1;282
+GDL-063;720;1569;749;1445;Guadalajara Centro;1ra ETAPA;C. Colonias / C. LÛpez Cotilla;Poniente;Arroyo Vehicular;-103,366139;20,674132;23;0;769,7593538;0;0;7;2536,9187;3853;6;10;4;51;6;4;60;2;1;8;0;8;4;3;264
+GDL-064;773;1757;701;1750;Guadalajara Centro;1ra ETAPA;C. Marsella / C. LÛpez Cotilla;Poniente;Arroyo Vechiular;-103,370571;20,673321;19;0;929,0399889;0;0;6;6649,4662;6100,5;6;20;15;54;6;3;41;8;0;15;0;7;6;4;162
+GDL-065;377;774;338;644;Guadalajara Centro;1ra ETAPA;C. SimÛn Bolivar / Av. La Paz;Poniente;Arroyo Vehicular;-103,372588;20,6722064;15;0;922,1916522;0;0;8;0;4703;2;4;4;35;3;4;60;4;0;9;0;17;5;2;192
+GDL-066;381;704;363;700;Guadalajara Centro;1ra ETAPA;C. Lerdo de Tejada/C Gral. Sn MartÌn;Sur;Arroyo Vehicular;-103,371786;20,671364;15;0;445,152237;0;0;8;0;3569;2;1;5;24;4;2;30;1;2;12;0;19;8;1;216
+GDL-067;755;1532;686;1388;Guadalajara Centro;1ra ETAPA;Calzada Federalismo / C. Vidrio;Poniente;Banqueta;-103,3555917;20,6668825;19;1;986,0577672;0;1;5;0;2628,5;10;1;0;6;0;0;0;0;5;2;0;9;1;1;312
+GDL-068;532;1093;466;1223;Guadalajara Centro;1ra ETAPA;C. Guadalupe Zuno / Av. Chapultepec;Norte;Arroyo Vehicular;-103,368306;20,670512;19;0;316,5610927;62,13060218;0;6;12396,33;3891,5;3;15;14;33;3;2;34;5;2;11;0;7;4;1;186
+GDL-069;285;617;252;548;Guadalajara Centro;1ra ETAPA;C. Colonias / C. Guadalupe Zuno;Poniente;Arroyo Vehicular;-103,366071;20,670468;15;0;350,9108739;223,0820118;0;4;0;2399;4;3;3;13;2;2;38;3;0;8;0;14;3;0;240
+GDL-070;550;957;536;909;Guadalajara Centro;1ra ETAPA;Av. La Paz / C. Juan de Ojeda;Norte;Arroyo Vehicular;-103,363633;20,671455;11;0;495,7321181;0;0;4;1772,6479;1848;5;0;3;22;2;2;34;0;0;6;0;16;2;0;324
+GDL-071;532;1025;537;1042;Guadalajara Centro;1ra ETAPA;Av. La Paz /Av.Enrique DÌaz de LeÛn;Norte;Arroyo Vehicular;-103,359537;20,670362;15;0;499,0850936;97,47743645;0;11;1215,5208;1779;8;1;0;26;1;2;34;1;2;9;0;13;4;2;252
+GDL-072;331;686;294;589;Guadalajara Centro;1ra ETAPA;Av. La Paz / C. Camarena;Norte;Banqueta;-103,357589;20,67056;15;0;487,5249759;0;0;10;6132,6899;1309,5;11;1;2;28;0;1;15;1;5;5;0;13;3;3;276
+GDL-073;760;1749;725;1575;Guadalajara Centro;1ra ETAPA;Av. La Paz / Av. Federalismo;Norte;Banqueta;-103,355032;20,669955;19;0;1477,760927;0;0;4;6132,6899;1468,5;10;4;2;13;0;1;15;0;4;5;1;12;3;2;300
+GDL-074;122;537;145;544;Guadalajara Centro;1ra ETAPA;C. Enrique Gonz·lez / C. Libertad;Poniente;Arroyo Vehicular;-103,351651;20,67131;11;0;208,0659455;0;0;14;0;2006,5;14;2;3;19;1;1;11;1;1;4;0;12;3;1;294
+GDL-075;171;533;171;607;Guadalajara Centro;1ra ETAPA;C. Pedro Rioseco /C. Nueva Galicia;Poniente;Andador;-103,348768;20,669628;11;0;527,4155273;0;0;16;1252,802;2898,5;10;11;7;33;6;0;0;2;3;6;0;2;2;3;242
+GDL-076;207;815;229;1181;Guadalajara Centro;1ra ETAPA;C. RamÛn Corona / C. Libertad;Oriente;Arroyo Vehicular;-103,346195;20,670243;15;1;963,7841142;122,6987076;2;15;4807,6878;3068;13;18;9;29;3;2;34;2;2;9;0;2;3;7;394
+GDL-077;375;866;333;823;Guadalajara Centro;1ra ETAPA;C. Argentina / C. Pedro Moreno;Oriente;Arroyo Vehicular;-103,36134;20,675631;15;0;699,1098296;0;0;15;0;2415;5;1;6;35;3;2;30;2;2;15;0;12;12;2;258
+GDL-078;502;1263;632;1269;Guadalajara Centro;1ra ETAPA;C. Comercio / C. La Paz;Poniente;Banqueta;-103,346775;20,667946;15;0;312,8597155;0;1;13;0;2243;3;5;3;14;4;1;15;2;0;4;0;0;1;1;250
+GDL-079;257;643;293;683;Guadalajara Centro;1ra ETAPA;C. Donato Guerra /Av. La Paz;Poniente;Banqueta3;-103,3513022;20,6688627;11;0;494,8197417;0;0;7;860,7348;1409;11;1;1;16;0;1;15;0;1;0;1;5;0;1;270
+GDL-080;384;803;377;763;Guadalajara Centro;1ra ETAPA;C. Manuel AcuÒa / Av. AmÈricas;Sur;Arroyo Vehicular;-103,373252;20,68432;15;0;138,6585258;0;0;12;0;2343,5;27;7;1;26;0;0;0;2;3;4;0;27;2;0;276
+GDL-081;279;532;289;492;Guadalajara Centro;1ra ETAPA;C. Venezuela / Av. NiÒos HÈroes;Oriente;Banqueta;-103,363338;20,667352;11;0;0;443,0425281;0;4;1772,6479;2405,5;15;1;1;31;2;1;15;2;1;3;0;6;1;0;222
+GDL-082;279;622;230;579;Guadalajara Centro;1ra ETAPA;C. Gdpe. Montenegro/C.NuÒo de Guzman;Norte;Arroyo Vehicular;-103,362535;20,669326;15;0;355,5939283;436,834108;0;1;1772,6479;1990;11;0;1;26;1;2;22;2;1;4;0;15;0;0;240
+GDL-083;425;948;385;966;Guadalajara Centro;1ra ETAPA;C. Vidrio / Av. Enrique DÌaz;Norte;Arroyo Vehicular;-103,3595222;20,667532;15;0;0;254,4548569;0;7;0;2774;10;10;1;22;2;0;0;1;0;2;0;12;0;1;222
+GDL-084;593;1082;565;1110;Guadalajara Centro;1ra ETAPA;C. Montenegro / Av. Chapultepec;Sur;Arroyo Vehicular;-103,368312;20,669306;19;0;0;454,887492;0;6;15050,817;2603;4;12;10;38;1;3;53;3;3;10;0;17;3;1;222
+GDL-085;225;399;128;318;Guadalajara Centro;1ra ETAPA;C. Gdpe. Zuno/ Av. UniÛn;Norte;Arroyo Vehicular;-103,373378;20,670426;15;0;310,5278852;83,24726305;0;9;0;4072;2;2;0;20;4;3;41;1;1;10;0;24;6;1;240
+GDL-086;132;580;90;511;Guadalajara Centro;1ra ETAPA;C. SimÛn Bolivar / Av. NiÒos HÈroes;Oriente;Arroyo Vehicular;-103,372444;20,66704;15;0;721,2811977;418,959643;0;10;0;2775;2;2;0;12;0;2;22;0;1;7;0;17;2;2;222
+ZPN-001;48;53;44;59;Zapopan Centro;1ra ETAPA;C. Emilio Carranza / Carretera Tesistan;Oriente;Arroyo Vehicular;-103,396083;20,73244;15;0;968,8690175;0;0;4;0;622,5;25;1;0;6;1;0;0;0;4;1;0;5;0;2;228
+ZPN-002;82;283;84;283;Zapopan Centro;1ra ETAPA;C. Emilio Carranza /C. Independencia;Poniente;Arroyo Vehicular;-103,397466;20,726376;11;0;0;0;0;2;1465,0631;600,5;35;0;0;28;1;0;0;0;1;2;0;7;0;2;288
+ZPN-003;117;203;62;239;Zapopan Centro;1ra ETAPA;C. Emilio Carranza / Av. Hidalgo;Poniente;Arroyo Vehicular;-103,398071;20,723081;11;0;0;0;0;10;5852,4349;519;23;0;0;25;0;0;0;1;3;3;0;14;0;2;420
+GDL-220;70;261;167;463;Alcalde Barranquitas;4ta ETAPA;Av. CientÌficos / C. FilÛsofos;Norte;Arroyo Vehicular;-103,342347;20,69995;19;0;0;0;0;5;12027,3345;515;23;2;4;34;1;1;15;3;3;4;0;15;0;1;252
+ZPN-005;24;101;29;39;Zapopan Centro;1ra ETAPA;C. Del Corral/ C. Anahuac;Norte;Arroyo Vehicular;-103,394267;20,730841;11;0;955,9411421;0;0;3;0;598,5;21;1;1;19;0;1;15;1;2;1;0;4;0;2;276
+ZPN-006;59;275;66;200;Zapopan Centro;1ra ETAPA;C. Sta. Rita / Av. Avila Camacho;Sur;Arroyo Vehicular;-103,386768;20,71953;15;0;1203,735655;231,9154635;0;8;16977,9462;1546;4;17;3;24;2;2;26;1;1;1;3;3;0;3;162
+ZPN-008;53;169;36;134;Zapopan Centro;1ra ETAPA;C. Vicente Guerrero / Av. Hidalgo;Oriente;Arroyo Vehicular;-103,39427;20,72201;19;0;0;0;0;10;3259,4039;1809,5;23;6;4;44;6;1;11;2;4;7;0;25;2;2;294
+ZPN-010;33;190;29;191;Zapopan Centro;1ra ETAPA;C. Ramon Corona / C. Cuauhtemoc;Norte;Arroyo Vehicular;-103,394585;20,723889;11;0;0;0;0;8;0;1929;30;3;4;51;4;1;19;1;5;5;1;22;2;3;282
+ZPN-011;17;52;5;49;Zapopan Centro;1ra ETAPA;C Pino Suarez / C. Lopez Cotilla;Sur;Arroyo Vehicular;-103,389242;20,726558;11;0;90,31295613;0;0;6;7157,5998;971;31;2;1;23;1;1;19;9;1;3;0;8;1;2;204
+ZPN-012;215;650;122;536;Zapopan Centro;1ra ETAPA;C. Pino Suarez / Av. Juan Pablo II;Oriente;Arroyo Vehicular;-103,390297;20,728538;19;0;1219,75086;0;0;11;9572,0328;1211,5;31;10;2;35;3;2;42;1;0;2;0;10;1;1;334
+ZPN-013;67;210;67;192;Zapopan Centro;1ra ETAPA;C. Eva Briseno / C. Javier Mina;Oriente;Andador;-103,391894;20,720438;15;0;0;0;0;9;53755,4782;2269;40;13;5;67;12;1;19;3;8;3;0;4;0;2;162
+ZPN-014;28;68;3;33;Zapopan Centro;1ra ETAPA;C. Plata / Av. Laureles;Sur;Arroyo Vehicular;-103,3997461;20,7352743;11;0;987,7973236;0;0;5;0;1484;6;4;0;9;0;3;37;1;3;1;0;2;0;0;114
+ZPN-015;62;201;45;189;Zapopan Centro;1ra ETAPA;Blvr. de la Espuela / Blvr. Charros;Sur;Arroyo Vehicular;-103,394636;20,735255;11;0;0;0;0;2;4013,1085;920,5;22;0;0;12;3;0;0;1;23;1;0;5;0;0;246
+ZPN-016;126;262;75;294;Zapopan Centro;1ra ETAPA;Av. Hidalgo/ C. Emiliano Zapata;Norte;Banqueta;-103,3902;20,721643;19;0;0;0;0;7;64707,9986;3362;56;22;7;87;19;2;26;4;5;4;1;22;2;4;240
+ZPN-017;28;99;44;60;Zapopan Centro;1ra ETAPA;C. Juan Manuel/ C. Pedro Moreno;Sur;Arroyo Vehicular;-103,388657;20,72374;15;0;759,7809009;0;0;5;5452,8444;1392;27;3;0;28;4;0;0;9;4;4;0;21;2;4;216
+ZPN-018;200;523;141;452;Zapopan Centro;1ra ETAPA;Av. Laureles / Blvrd. Panamericano;Oriente;Banqueta;-103,3859946;20,7276186;15;0;1030,493928;224,6298462;0;3;0;661;8;3;0;9;3;1;15;0;1;0;0;5;0;0;120
+ZPN-020;236;641;192;569;Zapopan Centro;1ra ETAPA;Av. Aurelio Ortega/ Av. Laureles;0;Camellon;-103,386526;20,721002;15;0;1327,245564;361,8221491;0;10;25813,5135;1155,5;6;20;3;24;2;2;26;1;0;1;2;5;0;3;222
+ZPN-021;77;228;71;254;Zapopan Centro;1ra ETAPA;Blvrd. Panamericano/ C. Santa Monica;Poniente;Banqueta;-103,384156;20,72832;15;0;211,1098102;306,8640451;0;1;43625,5616;547;3;3;0;12;6;1;15;1;2;0;0;1;0;0;126
+ZPN-022;74;189;71;169;Zapopan Centro;1ra ETAPA;Av. Aurelio Ortega/ C. Morelos;Norte;Banqueta;-103,383;20,722427;15;0;0;507,9425602;0;5;23067,8125;274;6;0;0;5;0;0;0;0;1;1;0;2;0;0;144
+ZPN-025;76;295;89;217;Zapopan Centro;1ra ETAPA;Av. V. Carranza / Av. Jose Simeon;Oriente;Arroyo Vehicular;-103,380651;20,731202;15;0;0;0;0;3;37133,7252;120;2;0;0;4;1;0;0;1;1;1;0;2;0;0;246
+ZPN-027;63;244;40;225;Zapopan Centro;1ra ETAPA;C. 5 de Mayo/ C. 20 de Noviembre;Poniente;Arroyo Vehicular;-103,388629;20,720452;11;0;953,1163536;121,331613;0;10;39877,4316;2668,5;13;32;7;54;10;3;49;2;4;2;4;11;0;3;216
+ZPN-028;58;350;82;336;Zapopan Centro;1ra ETAPA;Av. F. Aranguren / Av. Laureles;Poniente;Arroyo Vehicular;-103,401285;20,737087;11;0;1212,961839;0;0;5;15600,1377;2279;7;13;0;14;2;2;26;2;3;1;0;4;0;2;174
+ZPN-029;27;60;18;44;Zapopan Centro;1ra ETAPA;C. La Villa/ C. Cuauhtemoc;Sur;Arroyo Vehicular;-103,393858;20,728147;15;0;0;0;0;0;4118,0995;535;30;0;0;16;1;0;0;2;3;0;1;7;0;0;372
+ZPN-030;56;182;29;73;Zapopan Centro;1ra ETAPA;Av. Juan Pablo II / C. L·zaro C·rdenas;Oriente;Arroyo Vehicular;-103,401357;20,736557;15;0;1169,416189;0;0;6;15600,1377;2005,5;8;14;0;17;2;2;22;2;7;1;0;4;0;2;216
+ZPN-031;51;343;30;257;Chapalita;2da ETAPA;C Nino Obrero/ Calz. Lazaro Cardenas;0;Camellon;-103,40945;20,67342;19;0;0;0;0;6;12255,1879;1531,5;2;9;0;2;1;0;0;0;0;0;2;5;0;1;96
+ZPN-032;166;536;120;437;Chapalita;2da ETAPA;Calz. Lazaro Cardenas/ Av San Fco.;0;Camellon;-103,40641;20,67195;19;0;0;0;0;3;45053,22;1428,5;3;8;1;6;1;1;15;1;2;2;1;8;0;2;84
+ZPN-033;71;270;66;171;Chapalita;2da ETAPA;Av. Lazaro Cardenas/ Av. San Ignacio;0;Camellon;-103,40458;20,6707;15;0;0;0;0;2;10073,8968;1132,5;2;5;2;5;0;1;19;2;3;0;0;14;0;3;158
+ZPN-034;67;197;28;91;Chapalita;2da ETAPA;C. San Demetrio / C. Nivo Obrero;Sur;Arroyo Vehicular;-103,40968;20,66984;15;0;0;0;0;3;0;534;6;1;0;7;0;0;0;1;2;2;1;18;0;1;216
+ZPN-035;48;112;11;30;Chapalita;2da ETAPA;C. San Juan Bosco / Av. San Igancio;Sur;Arroyo Vehicular;-103,40495;20,66844;11;0;0;0;0;1;2500,0429;1330;3;4;1;17;0;0;0;4;2;1;0;4;0;2;146
+ZPN-036;57;220;43;165;Chapalita;2da ETAPA;C. Nino Obrero/ C Jose Maria Robles;Poniente;Arroyo Vehicular;-103,40953;20,66731;19;0;105,3886024;0;0;5;0;1387;4;5;1;9;0;0;0;2;1;0;3;34;0;2;200
+ZPN-037;168;644;154;562;Chapalita;2da ETAPA;Av. San Ignacio/ Av. Guadalupe;Norte;Banqueta;-103,402512;20,666914;15;0;1086,556655;0;0;4;22384,1505;1644;6;8;1;38;0;1;11;4;0;0;0;24;0;3;180
+ZPN-038;51;142;34;130;Chapalita;2da ETAPA;C. Santa Rita / Av. Guadalupe;Norte;Arroyo Vehicular;-103,40662;20,66581;11;0;986,0908499;0;0;7;3615,1182;1201;9;3;2;33;0;0;0;3;4;2;0;32;0;1;144
+ZPN-039;96;196;52;170;Chapalita;2da ETAPA;Av. Nino Obrero / C. Juan Diego;Poniente;Banqueta;-103,4079076;20,66312806;19;0;281,8115914;0;0;9;6024,528;715;1;3;1;15;0;0;0;0;1;2;0;40;0;1;152
+ZPN-040;54;148;26;107;Chapalita;2da ETAPA;C. Santa Maria / C. Arbol;Sur;Arroyo Vehicular;-103,4037559;20,66033761;15;0;0;0;0;1;0;603,5;2;2;1;7;0;1;11;0;2;1;0;6;1;1;156
+ZPN-041;94;210;75;150;Chapalita;2da ETAPA;C. 12 de Diciembre / C. Juan Diego;Oriente;Arroyo Vehicular;-103,404;20,66463;11;0;824,6216356;0;0;6;27274,242;1026,5;6;7;0;26;2;1;15;1;1;1;0;11;0;1;156
+ZPN-042;39;104;25;137;Chapalita;2da ETAPA;C. Tonatiuh / Av. Netzahualcoyotl;Norte;Arroyo Vehicular;-103,4065612;20,65925105;15;0;0;0;0;1;15695,0293;1055;5;2;0;13;0;0;0;3;2;3;0;19;1;2;176
+ZPN-043;42;130;19;112;Chapalita;2da ETAPA;C. Ermita / C. Del Arbol;Oriente;Arroyo Vehicular;-103,40195;20,65938;11;0;0;0;0;0;1,2302;572;5;0;0;4;0;1;15;0;1;3;0;2;2;0;174
+ZPN-045;62;130;23;96;Chapalita;2da ETAPA;Av. Tizoc / C Itzaccihuatl;Oriente;Arroyo Vehicular;-103,40464;20,65701;15;0;0;0;0;0;0;394,5;3;0;0;3;0;0;0;0;1;1;0;0;0;0;212
+ZPN-046;68;159;30;161;Chapalita;2da ETAPA;Av. Cubilete / Av. Lopez Mateos;Norte;Arroyo Vehicular;-103,397725;20,656866;19;0;0;0;0;3;5969,0164;2610,5;0;6;0;6;0;0;0;5;1;4;0;4;0;1;84
+ZPN-047;42;203;53;195;Chapalita;2da ETAPA;Av. Tizoc / Av. Lopez mateos;Norte;Arroyo Vehicular;-103,40134;20,65381;15;0;0;0;0;7;2446,7685;2140,5;9;14;1;40;0;0;0;1;2;3;0;5;0;0;114
+TLQ-001;150;390;121;408;Corredor Atlas;2da ETAPA;Blvrd. Garcia Barragan / C. Rio Tajo;Oriente;Banqueta;-103,31948;20,64483;19;0;995,1077324;0;0;6;2564,6118;744,5;2;3;3;17;0;0;0;0;0;1;0;4;1;4;290
+TLQ-002;208;536;204;543;Corredor Atlas;2da ETAPA;C. Juarez / Av. NiÒos Heroes;Sur;Arroyo vehicular;-103,3163317;20,6383352;15;0;0;0;0;9;5040,8775;1719;20;5;13;43;2;0;0;6;4;8;1;21;3;2;240
+TLQ-003;67;154;38;99;Tlaquepaque Centro;2da ETAPA;C. Contreras Medellin / Donato Guerra;Oriente;Banqueta;-103,31366;20,64193;15;0;0;0;0;4;3622,0011;1822;14;1;0;25;8;0;0;5;3;4;1;9;0;1;240
+TLQ-004;16;119;26;112;Tlaquepaque Centro;2da ETAPA;C. Donato Guerra / C. Obregon;Sur;Arroyo vehicular;-103,3106;20,64185;15;0;0;0;0;3;3167,5659;1633;90;0;0;69;5;0;0;1;5;3;0;13;0;3;240
+TLQ-005;10;21;11;24;Tlaquepaque Centro;2da ETAPA;C. Zalatitan / C. Jalisco;Sur;Arroyo Vehicular;-103,30651;20,64188;15;0;0;0;0;9;151,6701;462,5;30;0;1;19;1;0;0;1;4;0;0;0;0;1;234
+TLQ-007;114;498;102;436;Corredor Atlas;2da ETAPA;Blvrd. Garcia Barragan / Donato Guerra;Oriente;Banqueta;-103,31716;20,64176;15;0;730,9859306;0;0;8;6820,3279;1131,5;5;4;3;14;20;0;0;1;6;2;0;5;1;1;248
+TLQ-009;165;492;117;545;Tlaquepaque Centro;2da ETAPA;C. Progreso / C. Juarez;Oriente;Arroyo Vehicular;-103,31148;20,63816;15;0;0;0;0;6;21118,6854;4139,5;104;17;12;105;52;1;15;4;7;4;1;14;1;6;258
+TLQ-010;38;193;22;167;Tlaquepaque Centro;2da ETAPA;C. Zaragoza / C. Emilio Carranza;Norte;Arroyo Vehicular;-103,30952;20,69175;15;0;0;0;0;8;11136,9581;3172,5;103;21;13;83;50;2;30;4;6;4;0;11;1;7;252
+TLQ-011;77;106;47;73;Tlaquepaque Centro;2da ETAPA;C. Jalisco / C. Hidalgo;Poniente;Arroyo Vehicular;-103,30465;20,63922;15;0;0;0;0;9;9267,7748;488,5;31;2;1;16;1;0;0;1;0;0;0;4;0;2;276
+TLQ-012;28;105;21;106;Tlaquepaque Centro;2da ETAPA;C. Paseo Don Bosco / C. Tonala;Poniente;Andador;-103,3019;20,63613;15;0;0;0;0;3;20080,3334;469;19;0;3;13;0;0;0;1;3;0;0;4;0;2;156
+GDL-087;266;1205;155;1286;Mezquitan;2da ETAPA;Av. AmÈricas / Av. LÛpez Mateos;Poniente;Banqueta;-103,37333;20,69493;15;0;0;0;0;7;10148,8795;1699;3;6;2;11;2;1;15;1;2;1;2;10;0;0;228
+GDL-088;291;560;252;523;Mezquitan;2da ETAPA;Av.Plan de San Luis / C. AndrÈs Teran;Sur;Banqueta;-103,36773;20,6972;15;0;0;0;0;5;0;1182;1;1;1;9;2;0;0;1;1;0;0;15;0;0;212
+GDL-089;511;1139;500;1090;Mezquitan;2da ETAPA;C. Juan ¡Ålvarez / C. Cruz Verde;Sur;Arroyo Vehicular;-103,35699;20,68456;11;0;0;0;0;9;0;1346,5;14;0;0;8;1;0;0;1;2;1;0;8;0;1;276
+GDL-090;671;1638;613;1690;Mezquitan;2da ETAPA;Calz. Federalismo / C. Durango;Poniente;Banqueta;-103,35519;20,69865;19;2;1597,295579;0;2;6;42,7208;1510,5;21;7;2;29;1;1;23;0;3;1;0;11;0;3;334
+GDL-091;307;1051;343;1080;Mezquitan;2da ETAPA;C. Magisterio / Av. M. ¡vila Camacho;Oriente;Arroyo Vehicular;-103,349382;20,696097;15;1;581,3483505;666,6164064;1;6;0;2526;4;10;1;24;14;1;23;2;6;4;0;5;2;1;156
+GDL-092;227;492;281;622;Mezquitan;2da ETAPA;Calz Federalismo / Av. Plan San Luis;Oriente;Banqueta;-103,3549492;20,69610588;15;0;993,5688571;0;0;3;0;1383,5;19;2;0;17;1;0;0;0;3;2;0;4;0;0;204
+GDL-093;503;1440;483;1452;Mezquitan;2da ETAPA;C. H Colegio Militar / Av. AmÈricas;Norte;Arroyo Vehicular;-103,37298;20,69311;15;0;0;0;0;6;10148,8795;1545;5;7;3;14;3;2;30;3;2;3;3;19;0;1;168
+GDL-094;373;799;325;749;Mezquitan;2da ETAPA;C. Manuel Cambre / C. AndrÈs Teran;Oriente;Arroyo Vehicular;-103,36757;20,69324;15;0;0;0;0;11;20639,9635;421,5;2;0;0;3;0;0;0;2;0;1;0;17;1;1;300
+GDL-095;253;722;331;761;Mezquitan;2da ETAPA;C. Mariano Barcena / Av. Maestros;Oriente;Arroyo Vehicular;-103,3516;20,692725;19;1;180,3084479;0;0;7;28035,9378;1093,5;11;1;2;42;3;0;0;1;2;3;1;2;0;0;162
+GDL-096;243;555;252;596;Mezquitan;2da ETAPA;C. Jes˙s GarcÌa / C. Gonz·lez Ortega;Norte;Banqueta;-103,35071;20,6891;19;1;0;0;0;9;52575,6053;759,5;8;0;1;8;4;1;11;2;0;2;0;4;0;1;198
+GDL-097;230;674;228;670;Mezquitan;2da ETAPA;C. MarÌa Vigil / C. Juan N. Cumplido;Norte;Arroyo Vehicular;-103,3582;20,68981;19;1;0;497,6482456;0;5;0;957,5;19;2;0;14;0;0;0;1;0;0;0;3;0;2;138
+GDL-098;383;879;378;729;Mezquitan;2da ETAPA;Calz. Federalismo / Av. Maestros;Poniente;Banqueta;-103,354209;20,693072;19;1;999,331145;0;1;6;249,1438;747,5;10;0;1;13;1;0;0;0;1;0;0;1;0;0;156
+GDL-099;260;446;296;396;Mezquitan;2da ETAPA;C. Eulogio Parra /C.Gonz·lez Ortega;Sur;Arroyo Vehicular;-103,350525;20,687196;11;0;0;149,919391;0;8;1454,1272;1063;11;0;1;14;3;1;19;2;4;3;0;10;0;0;378
+GDL-100;193;439;146;270;Mezquitan;2da ETAPA;C. Ayuntamiento / C. A. R. Plasencia;Sur;Arroyo Vehicular;-103,37082;20,69269;15;0;0;0;0;2;19999,5397;871,5;4;1;1;3;1;1;15;3;2;1;2;24;0;0;240
+GDL-101;318;970;305;866;Mezquitan;2da ETAPA;C. Amado Nervo /C. JosÈ MarÌa Vigil;Poniente;Arroyo Vehicular;-103,37486;20,68969;15;0;369,1479758;78,50277432;0;9;0;1444,5;2;5;0;9;0;0;0;2;4;6;0;24;2;2;206
+GDL-102;423;726;347;716;Mezquitan;2da ETAPA;C. MarÌa Vigil / C. Manuel M. Dieguez;Norte;Arroyo Vehicular;-103,37071;20,68985;11;0;0;497,4168547;0;9;0;1084;19;2;0;28;0;0;0;0;3;2;2;16;0;0;258
+GDL-103;483;972;380;1036;Mezquitan;2da ETAPA;J. Clemente Orozco / C. Jes˙s GarcÌa;Oriente;Arroyo Vehicular;-103,365814;20,68861;15;0;0;451,2956007;0;6;7584,5449;1311,5;30;0;0;33;0;1;11;2;5;2;0;10;0;1;450
+GDL-104;482;1269;454;1319;Mezquitan;2da ETAPA;C. Pedro Loza / Av. Manuel AcuÒa;Poniente;Andador;-103,34853;20,68348;19;1;0;939,9108089;1;11;20332,1073;3114,5;215;3;0;92;14;1;31;3;3;4;0;23;1;2;300
+GDL-105;203;821;289;866;Mezquitan;2da ETAPA;C. Pino Su·rez / C. Joaquin Angulo;Oriente;Arroyo Vehicular;-103,34601;20,6822;11;1;0;698,0088982;0;14;424,4715;2467;231;3;2;77;5;1;11;1;4;3;0;15;1;1;300
+GDL-106;698;1617;659;1776;Mezquitan;2da ETAPA;C. Juan ¡Ålvarez / C. BelÈn;Norte;Arroyo Vehicular;-103,34526;20,68465;19;0;0;0;0;9;15482,5782;1283;18;6;1;38;1;0;0;2;4;1;1;13;1;1;222
+GDL-107;322;970;371;858;Mezquitan;2da ETAPA;Calz. Federalismo / C. J. MarÌa Vigil;Oriente;Banqueta;-103,353973;20,68981;15;2;984,8462886;264,7116686;1;7;1795,2338;968;20;0;1;25;0;0;0;0;2;0;0;5;0;0;180
+GDL-108;378;789;450;939;Mezquitan;2da ETAPA;C. Hospital / C. Alameda;Sur;0;-103,33964;20,68586;11;0;0;496,1506307;0;11;2250,3908;854,5;32;1;1;25;1;0;0;2;1;1;0;2;0;1;480
+GDL-109;272;504;226;440;Mezquitan;2da ETAPA;C. Eulogio Parra / Av. AmÈricas;Norte;Arroyo Vehicular;-103,37363;20,68725;19;0;0;0;0;7;0;2211;13;10;1;17;4;0;0;1;3;1;0;22;1;1;252
+GDL-110;400;586;294;561;Mezquitan;2da ETAPA;C. Manuel DiÈguez/  Av. Eulogio Parra;Poniente;Arroyo Vehicular;-103,37084;20,68723;11;0;0;0;0;8;0;1330,5;36;4;1;39;0;0;0;1;3;2;1;20;0;0;354
+GDL-111;155;732;273;905;Mezquitan;2da ETAPA;C. JosÈ Palomar / C. Hospital;Sur;Arroyo Vehicular;-103,336305;20,686228;15;0;0;484,2209351;1;11;2583,513;2169;13;7;0;31;10;1;11;1;0;1;1;3;0;4;294
+GDL-112;532;1018;446;976;Mezquitan;2da ETAPA;C. C. Orozco / C. Gral. Eulogio Parra;Oriente;Arroyo Vehicular;-103,36582;20,687;11;0;0;0;0;2;7265,7734;1418,5;21;0;0;27;1;1;15;2;7;1;0;14;0;1;426
+GDL-113;253;723;267;630;Mezquitan;2da ETAPA;C. Ghilardi / C. Arista;Oriente;Arroyo Vehicular;-103,362716;20,6880337;15;0;0;166,6745946;0;8;3819,7002;723;27;0;0;19;0;0;0;1;0;0;0;3;0;0;360
+GDL-114;239;695;326;847;Mezquitan;2da ETAPA;C. Monte C·ucaso / C. Alameda;-;Camellon;-103,3361;20,68925;15;0;0;0;1;4;13115,9372;777;35;3;0;18;0;0;0;4;4;3;0;7;0;2;312
+GDL-115;534;1140;546;1109;Mezquitan;2da ETAPA;Calz. Federalismo / C. Fco. Zarco;Poniente;Banqueta;-103,35408;20,68605;15;0;984,8155425;0;0;3;0;1140,5;16;0;3;8;0;0;0;1;4;1;1;10;0;0;384
+GDL-116;194;536;176;384;Arcos - Vallarta;2da ETAPA;Av Manuel AcuÒa/C. Pablo VillaseÒor;-;Camellon;-103,37989;20,68447;11;0;0;0;0;12;28475,3606;2184,5;8;0;0;6;0;0;0;0;3;3;0;38;1;0;260
+GDL-117;185;375;137;321;Arcos - Vallarta;2da ETAPA;Av Manuel AcuÒa / C Fray Fco Frejes;Sur;Arroyo Vehicular;-103,37653;20,68427;11;0;0;0;0;6;26385,097;2247,5;8;0;0;17;0;0;0;3;5;3;1;37;0;2;330
+GDL-118;158;286;93;211;Arcos - Vallarta;2da ETAPA;C. Antonio de LeÛn / C. Garibaldi;Poniente;Arroyo Vehicular;-103,38197;20,68168;15;0;129,6142322;0;0;6;4268,4538;2105;3;3;0;10;1;0;0;1;1;3;0;55;2;1;254
+GDL-119;186;367;101;270;Arcos - Vallarta;2da ETAPA;C. Fco Rojas Gonz·lez /C. Garibaldi;Oriente;Arroyo Vehicular;-103,3785;20,68153;11;0;161,3884478;0;0;4;3271,9495;2135,5;3;0;0;10;1;1;15;0;1;5;0;45;1;1;306
+GDL-120;195;351;145;255;Arcos - Vallarta;2da ETAPA;C. AgustÌn de la Rosa /C. Garibaldi;Oriente;Arroyo Vehicular;-103,37537;20,68132;11;0;302,725548;0;0;7;0;2669;0;5;1;12;0;1;11;1;3;9;0;63;3;2;294
+GDL-121;416;777;332;677;Arcos - Vallarta;2da ETAPA;C. Tom·s V. GÛmez / Av. MÈxico;Oriente;Arroyo Vehicular;-103,38253;20,67914;19;0;979,8605131;41,8034874;0;9;2980,7531;2925;5;4;1;21;1;1;15;2;0;9;0;37;2;5;204
+GDL-122;161;453;92;399;Arcos - Vallarta;2da ETAPA;C. Fray Luis DePalacio/ Av. MÈxico;Oriente;Arroyo Vehicular;-103,37926;20,67947;15;0;989,1149115;0;0;5;0;4209;8;0;1;9;3;1;11;2;1;5;3;70;2;4;216
+GDL-123;237;486;193;379;Arcos - Vallarta;2da ETAPA;C. Aurelio L. Gallardo / Av. MÈxico;Oriente;Arroyo Vechiular;-103,376;20,67945;11;0;984,9592689;0;0;6;0;3450,5;4;3;2;17;0;1;11;2;1;9;1;75;2;1;240
+GDL-124;322;773;175;603;Arcos - Vallarta;2da ETAPA;C. Severo DÌaz / C. Justo Sierra;Oriente;Arroyo Vehicular;-103,38387;20,67741;15;0;513,3601091;151,0392806;0;8;1330,3636;3444,5;3;4;1;17;2;2;42;1;2;6;0;15;0;2;198
+GDL-125;210;323;140;290;Arcos - Vallarta;2da ETAPA;C. Pablo VillaseÒor / Av. Hidalgo;Oriente;Arroyo Vechiular;-103,37993;20,67691;15;0;383,838674;284,9835052;0;4;0;4905;4;1;0;8;1;0;0;1;3;5;3;61;1;3;108
+GDL-126;201;400;173;293;Arcos - Vallarta;2da ETAPA;C. Aurelio L. Gallardo / Av Hidalgo;Oriente;Arroyo Vehicular;-103,37606;20,67647;11;0;495,2274914;0;0;7;0;3614;2;1;0;17;1;1;15;1;2;6;4;38;3;2;132
+GDL-127;810;2137;533;1451;Arcos - Vallarta;2da ETAPA;Av. Vallarta / Av. de Los Arcos;Sur;Banqueta;-103,38488;20,67438;19;1;682,4604514;458,2522283;0;16;16271,8951;3455,5;3;5;3;13;4;1;23;2;1;8;0;17;1;2;222
+GDL-128;343;897;183;621;Arcos - Vallarta;2da ETAPA;Av. Morelos / C. Emilio Castelar;Sur;Arroyo Vechiular;-103,38409;20,67554;23;1;447,1270403;370,8935212;0;12;13464,1299;3248;1;5;1;8;4;2;34;1;3;3;0;12;1;1;216
+GDL-129;503;1364;416;1100;Arcos - Vallarta;2da ETAPA;C. Lope de Vega / Av. Vallarta;Poniente;Arroyo Vechiular;-103,37998;20,67455;19;0;592,99363;418,4717659;0;9;0;4024,5;6;13;4;50;0;0;0;2;3;5;1;22;0;5;126
+GDL-130;264;735;197;709;Arcos - Vallarta;2da ETAPA;C. J. RuÌz de AlarcÛn / Av. La Paz;Poniente;Arroyo Vehicular;-103,37618;20,67448;15;0;639,5610967;0;0;11;0;2918;5;15;5;34;2;1;11;1;1;7;1;10;5;3;120
+GDL-131;399;830;244;582;Arcos - Vallarta;2da ETAPA;C. Emilio Castelar / Av. La Paz;Poniente;Arroyo Vehicular;-103,384;20,67206;19;0;1431,082067;223,807502;0;11;5734,5613;2291,5;5;4;2;11;0;2;34;1;0;10;0;33;2;1;234
+GDL-132;611;1237;548;1226;Arcos - Vallarta;2da ETAPA;C. Lope de Vega / Av. La Paz;Oriente;Arroyo Vechicular;-103,37997;20,67207;15;0;898,7246133;400,9818742;0;5;0;2164;3;2;4;40;4;0;0;2;1;7;0;11;3;2;120
+GDL-133;284;720;261;599;Arcos - Vallarta;2da ETAPA;C. J. RuÌz de AlarcÛn / Av. La Paz;Oriente;Arroyo Vehicular;-103,37608;20,67189;15;0;886,4044796;0;0;6;0;3227,5;3;1;5;33;4;0;0;1;1;9;0;25;3;1;132
+GDL-134;319;756;270;587;Arcos - Vallarta;2da ETAPA;C. AgustÌn Y·Òez / C. Fco Ugarte;Oriente;Banqueta;-103,38448;20,67016;19;0;1194,084323;28,64104039;0;8;21488,4231;2441;4;3;0;15;0;2;30;2;1;6;0;28;2;1;312
+GDL-135;254;378;173;332;Arcos - Vallarta;2da ETAPA;C. Victoriano Ag¸eros / Av. UniÛn;Oriente;Arroyo Vehicular;-103,3731;20,66868;11;0;0;483,9424045;0;6;0;2706,5;2;2;0;14;1;2;30;0;1;10;0;26;5;1;270
+GDL-136;223;601;190;448;Arcos - Vallarta;2da ETAPA;C. Lope de Vega/C. EfraÌn Glez Luna;Oriente;Arroyo Vehicular;-103,37983;20,66927;19;0;0;242,7729677;0;4;0;2000;1;0;1;10;4;0;0;1;3;2;2;15;0;0;138
+GDL-137;158;366;84;277;Arcos - Vallarta;2da ETAPA;C. RuÌz de AlarcÛn/C. EfraÌn G Luna;Poniente;Arroyo Vehicular;-103,37623;20,66957;11;0;0;312,5265839;0;2;0;3328;4;0;0;9;1;0;0;1;3;5;0;25;1;0;180
+GDL-138;86;254;24;193;Arcos - Vallarta;2da ETAPA;C. de la Nebulosa / C. Placeres;Norte;Arroyo Vehicular;-103,39134;20,66557;15;0;937,0447138;0;0;7;8286,3843;2830;6;7;1;12;0;1;11;1;0;0;0;20;0;1;192
+GDL-139;171;451;170;347;Arcos - Vallarta;2da ETAPA;C. Firmamento / Av. NiÒos HÈroes;Poniente;Arroyo Vehicular;-103,38863;20,66667;15;0;984,5119338;0;0;3;3814,8996;3264;2;4;0;11;0;1;15;2;0;1;1;20;0;2;108
+GDL-140;398;919;370;829;Arcos - Vallarta;2da ETAPA;C. ConstelaciÛn / Av. de los Arcos;Sur;Arroyo Vehicular;-103,38488;20,66816;11;0;1411,664019;0;0;9;15075,065;3059,5;5;6;2;19;0;1;19;3;2;4;0;16;0;1;216
+GDL-141;159;387;141;388;Arcos - Vallarta;2da ETAPA;C. RuÌz de AlarcÛn / C. AgustÌn Y·Òez;Norte;Arroyo Vehicular;-103,37621;20,66702;15;0;355,9539275;311,0779249;0;4;0;2568;5;3;0;3;0;0;0;0;3;3;0;9;0;0;174
+GDL-142;102;218;72;128;Arcos - Vallarta;2da ETAPA;C. De la Nebulosa / C. Firmamento;Norte;Arroyo Vehicular;-103,38855;20,6647;15;0;626,1096948;0;0;3;0;2223,5;2;2;0;4;1;1;15;1;0;1;1;12;0;1;120
+GDL-143;290;737;237;676;Arcos - Vallarta;2da ETAPA;C. Eclipse / Av. de Los Arcos;Norte;Arroyo Vehicular;-103,38407;20,6625;23;0;992,0823414;0;0;4;29906,1695;1825,5;3;2;0;11;1;0;0;0;2;3;0;16;0;3;168
+GDL-144;137;523;110;404;Chapalita;2da ETAPA;C. Primo Feliciano / C. San Gabriel;Sur;Arroyo Vehicular;-103,394307;20,669931;11;0;0;0;0;0;4164,7309;598;3;0;0;3;0;0;0;1;1;1;0;2;0;0;132
+GDL-145;102;296;45;181;Chapalita;2da ETAPA;C. San Miguel / Av. San Francisco;Sur;Arroyo Vehicular;-103,3947;20,66736;19;0;894,6761283;0;0;5;36854,6908;1124,5;1;6;0;12;0;1;15;0;1;0;0;6;0;2;180
+GDL-146;156;345;124;279;Chapalita;2da ETAPA;Av. Guadalupe / C. Boturini;Sur;Banqueta;-103,3988986;20,6662882;11;0;993,3254296;0;0;6;23800,7838;2110,5;4;2;1;10;0;2;30;3;3;4;0;5;1;3;204
+GDL-147;71;272;53;99;Chapalita;2da ETAPA;Calz. L√°zaro C√°rdenas/Av. Guadalupe;-;Camellon;-103,39654;20,66623;15;0;988,4379878;0;0;6;47080,5791;1127,5;0;4;0;14;0;3;45;2;1;1;0;24;0;4;252
+GDL-148;47;218;16;117;Chapalita;2da ETAPA;C. San Rafael / Av. Tepeyac;Oriente;Arroyo Vehicular;-103,39788;20,66501;15;0;770,6738365;0;0;3;32975,4343;1059;0;2;1;9;0;2;26;2;4;2;0;22;0;3;234
+GDL-149;112;473;105;388;Chapalita;2da ETAPA;Calz. Lazaro Cardenas / Lopez Mateos;-;Banqueta;-103,39388;20,66511;11;0;849,4073149;0;0;7;22775,591;1613,5;4;9;2;16;0;1;15;0;1;0;0;9;0;1;192
+GDL-150;21;116;7;65;Chapalita;2da ETAPA;C. Asuncion / Av. Chapalita;Sur;Arroyo Vehicular;-103,392533;20,661387;11;0;0;0;0;1;266,2139;709;5;0;0;0;0;0;0;0;0;0;0;4;0;0;168
+GDL-151;56;97;25;48;Chapalita;0;C. Capuchinas / Av. Chapalita;0;0;0;0;11;0;0;0;0;3;0;962,5;2;1;0;6;0;0;0;1;0;0;1;4;0;2;174
+GDL-152;77;196;45;141;Chapalita;2da ETAPA;Parque de las Estrellas/C. Orion;Oriente;Arroyo Vehicular;-103,38884;20,65931;19;0;0;0;0;1;38820,4373;749;1;0;0;0;1;2;30;0;0;1;0;2;1;1;114
+GDL-153;68;148;27;100;Chapalita;2da ETAPA;C. Crepusculo / Av. Tonantzin;Norte;Arroyo Vehicular;-103,39092;20,65846;11;0;0;0;0;0;5059,8157;539;3;0;0;1;0;1;19;0;1;0;0;1;0;1;132
+GDL-154;109;298;81;256;Chapalita;2da ETAPA;C. Capuchinas / Av. Las Rosas;Poniente;Arroyo Vehicular;-103,39363;20,65761;15;0;0;0;0;0;23530,13;254,5;1;0;0;3;0;0;0;1;0;0;0;2;0;2;150
+GDL-155;83;201;45;121;Chapalita;2da ETAPA;Parque de las Estrellas / Av. Mariano Ote;Norte;Arroyo Vehicular;-103,3883797;20,65712973;19;0;0;0;0;2;38820,4373;3486,5;0;4;0;4;0;1;19;1;0;2;0;1;0;0;120
+GDL-157;96;239;75;189;Chapalita;2da ETAPA;Av. Mariano Otero / Av. Las Rosas;Sur;Banqueta;-103,391595;20,654709;15;0;0;0;0;2;7588,2505;3563,5;1;8;1;3;1;0;0;3;0;0;0;0;0;0;42
+GDL-158;92;455;113;402;Chapalita;2da ETAPA;Av. Faro / Av. Las Rosas;Poniente;Arroyo Vehicular;-103,38957;20,65158;15;0;0;0;0;0;29411,0303;1274;1;2;0;4;5;0;0;0;1;3;0;0;2;1;228
+GDL-159;419;1072;513;1052;Corredor Atlas;2da ETAPA;C. Guadalupe Victoria / Del Ejercito;Sur;Arroyo Vehicular;-103,33357;20,66468;19;1;860,4545282;0;1;10;15225,4;1304;15;2;0;11;2;0;0;0;2;2;0;3;0;2;234
+GDL-160;104;351;122;379;Corredor Atlas;2da ETAPA;C.Silverio Garcia / Blvrd. Garcia Bar;Oriente;Arroyo Vehicular;-103,3315;20,66114;11;0;1505,983893;0;0;6;0;1308,5;18;0;0;9;2;1;19;1;4;1;0;8;0;1;456
+GDL-161;115;246;138;303;Corredor Atlas;2da ETAPA;C. Rio Usumacinta / Blvrd Garcia Barr;Poniente;Arroyo Vechiular;-103,33055;20,65925;19;0;1238,073586;0;0;7;4279,7517;1271,5;12;0;0;18;2;3;45;3;4;0;0;10;0;1;534
+GDL-162;146;383;183;479;Corredor Atlas;2da ETAPA;C. Rio Tuxpan / C. Salvador Lopez C;Norte;Arroyo Vehicular;-103,33046;20,65721;19;1;810,925997;0;0;12;8909,705;1154;27;1;0;44;1;2;34;3;5;0;1;11;0;1;618
+GDL-163;94;434;123;422;Corredor Atlas;2da ETAPA;C. Corregidora / Blvrd. Garcia B.;Sur;Banqueta;-103,32898;20,657817;15;0;974,0363165;0;0;8;7059,1203;1072,5;13;1;0;32;1;2;38;3;6;0;0;4;0;2;480
+GDL-164;99;327;84;325;Corredor Atlas;2da ETAPA;Av. Olimpica /C. Jose Rolon;Norte;Banqueta;-103,32186;20,655;15;0;0;0;0;5;26662,6419;690;5;0;0;2;0;0;0;1;1;1;0;1;1;0;108
+GDL-165;198;705;219;789;Corredor Atlas;2da ETAPA;C. Rio Panuco/ Blvrd. Garcia B.;Poniente;Arroyo Vehicular;-103,32553;20,65251;19;0;989,448296;0;0;11;0;866,5;5;2;1;20;0;0;0;1;0;5;0;1;3;3;204
+GDL-166;146;643;181;715;Corredor Atlas;2da ETAPA;C. Rio Principal / Blvrd. Garcia B.;Oriente;Arroyo Vehicular;-103,32719;20,65475;19;0;984,2319996;0;0;11;143,6056;1439,5;3;3;0;22;0;0;0;1;1;4;1;2;3;2;180
+GDL-167;151;413;190;503;Corredor Atlas;2da ETAPA;C. Rio San Juan de Dios / Blvrd. Garc;Poniente;Arroyo Vehicular;-103,32356;20,64962;15;0;978,1715518;0;0;5;45931,6963;840,5;9;2;0;9;0;0;0;1;0;0;0;1;0;1;156
+GDL-168;167;629;134;635;Corredor Atlas;2da ETAPA;Av. Rio Nilo / C. Ramon Pacheco;Sur;Banqueta;-103,31939;20,64874;19;0;0;0;0;4;0;426;10;4;1;16;0;0;0;1;4;2;0;9;0;1;138
+GDL-169;150;668;200;703;Corredor Atlas;2da ETAPA;Blvrd. Garcia Barragan/ C. Rio Zapo;Sur;Banqueta;-103,32147;20,64707;19;0;987,1443456;0;0;4;30462,5341;3487;9;10;1;38;0;0;0;3;0;1;0;3;1;8;122
+GDL-170;53;152;57;159;Tlaquepaque Centro;2da ETAPA;C. Relojeros / C. Chamizal;Sur;Arroyo Vehicular;-103,30619;20,64698;15;1;177,1254334;0;1;8;21568,3512;1056,5;14;3;0;15;1;1;19;1;2;1;0;2;0;1;264
+GDL-171;41;196;41;134;Tlaquepaque Centro;2da ETAPA;C. Maquinistas / C. San Rafael;Poniente;Arroyo Vehicular;-103,3102;20,6461;19;0;0;0;0;10;0;1051,5;12;4;0;20;0;0;0;2;2;1;0;9;0;1;374
+GDL-172;27;132;32;101;Tlaquepaque Centro;2da ETAPA;C. Chamizal / Av. Rio Nilo;Poniente;Arroyo Vehicular;-103,30678;20,64434;15;0;0;0;0;10;26172,6056;474;24;0;0;21;0;1;19;1;3;0;0;5;0;1;252
+GDL-173;26;56;6;33;Tlaquepaque Centro;2da ETAPA;C. Caballerango / C. Caporales;Norte;Arroyo Vehicular;-103,30518;20,64504;19;0;0;0;0;9;26020,9355;781;20;4;0;21;0;3;45;2;4;3;1;9;0;3;216
+GDL-174;64;283;42;212;Chapalita;2da ETAPA;C. Juan de Zum·rraga / Av. Tepeyac;Oriente;Arroyo Vehicular;-103,4003;20,6641;11;0;38,29953503;0;0;4;2918,2068;1346,5;7;8;0;22;0;0;0;3;5;2;0;3;1;0;150
+GDL-175;82;161;49;117;Chapalita;2da ETAPA;C. Ermita / C. San Uriel;Poniente;Arroyo Vehicular;-103,3981344;20,66234072;11;0;0;0;0;0;9105,2703;897,5;1;0;1;8;0;0;0;0;5;0;0;7;0;0;168
+GDL-176;80;331;43;353;Chapalita;2da ETAPA;C. San Bonifacio / Paseo Benedictino;-;Glorieta;-103,3976249;20,67276201;11;0;0;0;0;0;4312,3419;1281;1;0;0;3;1;0;0;0;2;2;0;4;1;1;204
+GDL-177;183;535;140;437;Mezquitan;2da ETAPA;C. Fray Fco Frejes / C. Fco Zarco;Oriente;Arroyo Vehicular;-103,37657;20,68669;15;0;0;0;0;2;564,4624;2009,5;6;2;0;9;0;0;0;5;4;4;2;28;0;1;276
+GDL-178;180;706;233;712;Guadalajara Centro;1ra ETAPA;C. Salvador Quevedo / Lopez Portillo;Oriente;Banqueta;-103,33307;20,684513;15;0;0;164,1836367;0;7;0;511;10;8;1;29;1;0;0;1;1;0;0;4;0;2;168
+GDL-179;374;971;516;1307;Guadalajara Centro;1ra ETAPA;C. Monte C·ucaso / C. Sierra Nevada;Sur;Arroyo Vehicular;-103,33343;20,68795;23;0;0;0;1;8;10943,5117;1413;7;8;1;47;1;1;11;4;2;2;1;2;0;4;156
+GDL-180;66;249;116;431;Guadalajara Centro;1ra ETAPA;C. Montes Pirineos / Salvador Quevedo;Oriente;Arroyo Vehicular;-103,33467;20,68692;11;0;0;265,196414;0;9;14915,7415;1698,5;7;14;0;55;7;2;38;2;1;1;1;3;0;4;228
+GDL-181;342;803;388;813;Mezquitan;2da ETAPA;C. Ignacio Rmrz / Av Plan de San Lui;Oriente;Arroyo Vehicular;-103,36322;20,69705;11;0;0;0;0;7;6272,04;1085;17;4;0;21;1;0;0;2;1;5;1;59;1;1;312
+TLQ-006;122;256;92;306;Tlaquepaque Centro;2da ETAPA;C. Miguel Hidalgo / Calz. Revolucion;Sur;Arroyo Vehicular;-103,301239;20,639042;15;0;0;0;0;13;10098,7188;953;23;3;4;13;7;0;0;4;0;0;0;6;0;1;276
+GDL-156;405;1201;260;982;Arcos - Vallarta;3ra ETAPA;C. Duque de Rivas / C. Lopez Cotilla;Poniente;Arroyo Vehicular;-103,3826893;20,6731682;15;0;1190,070863;711,8498071;0;10;0;2984,5;3;5;3;29;0;1;19;0;1;10;0;12;4;3;156
+GDL-020;406;738;317;638;Guadalajara Centro;1ra ETAPA;C. General Coronado / C. Juan Manuel;Oriente;Arroyo Vehicular;-103,365103;20,67848;15;0;321,2658028;0;0;6;0;1759;14;0;2;17;0;1;15;0;4;1;0;25;0;0;240
+GDL-182;444;840;358;887;Guadalajara Centro;2da ETAPA;C. General Coronado / C. Manuel Acu;Sur;Arroyo Vehicular;-103,3648293;20,6841645;15;0;131,0405504;0;0;4;0;1784;28;0;0;34;0;0;0;4;5;1;1;21;0;0;318
+GDL-183;388;1473;365;1665;Guadalajara Centro;3ra ETAPA;Calz. Independencia / Av. NiÒos HÈr;Norte;Banqueta;-103,3480775;20,6639862;19;0;0;0;1;12;6388,7846;2862;10;11;7;13;2;0;0;2;0;0;0;5;0;5;164
+GDL-184;400;1275;396;1202;Analco - Olimpica;3ra ETAPA;Ingreso Cucei / RevoluciÛn;Poniente;Banqueta;-103,324147;20,659581;19;1;991,5291342;0;1;5;25763,1991;466,5;9;0;1;18;1;0;0;2;1;2;0;3;0;1;150
+GDL-185;149;360;173;325;San Juan de Dios;3ra ETAPA;Dr. Silverio GarcÌa /Av. RevoluciÛn;Poniente;Arroyo Vehicular;-103,32942;20,66318;23;0;1963,381291;0;0;7;0;593,5;17;2;0;13;1;0;0;1;4;1;0;3;0;0;468
+GDL-186;312;760;317;781;Moderna - Fresno;3ra ETAPA;C. Argentina / C. Francia;Poniente;Arroyo Vehicular;-103,3628;20,66429;15;0;0;0;0;5;0;2119;5;2;0;14;0;0;0;1;1;1;1;4;0;0;176
+GDL-187;812;2365;982;2834;Guadalajara Centro;3ra ETAPA;Av. 16 de Septiembre / C. Priscilia;Oriente;Andador;-103,34718;20,67284;15;0;586,0924976;751,3617415;0;12;41836,2827;6957,5;22;27;16;76;16;2;34;9;6;11;0;8;4;15;372
+GDL-188;164;397;273;671;Mezquitan Country;3ra ETAPA;Av. de la Presa / Av. Manuel A. Cam;Oriente;Arroyo Vehicular;-103,37015;20,70928;15;0;988,7766144;0;0;5;97694,9909;413;1;0;1;2;1;0;0;1;2;2;0;12;1;1;90
+GDL-189;259;955;255;1028;Analco - Olimpica;3ra ETAPA;C. 5 de Mayo/ Av. RevoluciÛn;Poniente;Arroyo Vehicular;-103,34116;20,6692;15;0;986,3311275;0;0;6;8923,6905;937;13;0;0;12;0;0;0;3;4;3;0;5;1;0;216
+GDL-190;270;865;345;1194;San Juan de Dios;3ra ETAPA;C. Anahuac / Av. RevoluciÛn;Poniente;Arroyo Vehicular;-103,34385;20,6708;31;1;994,5770349;0;2;5;6243,8779;1799,5;14;2;9;15;1;0;0;2;0;2;0;2;0;2;318
+GDL-191;81;339;114;511;San Juan de Dios;3ra ETAPA;Plaza de los Mariachis;Poniente;Banqueta;-103,34123;20,6744;23;1;0;0;2;6;32485,4665;8458,5;120;39;5;215;5;1;23;5;0;1;0;2;1;7;276
+GDL-192;291;1078;468;1338;Mezquitan Country;3ra ETAPA;Calle A1 / Av. Manuel A. Camacho;Oriente;Arroyo Vehicular;-103,36564;20,70656;15;1;982,7075017;0;1;4;13195,6886;1028;3;2;1;5;1;0;0;0;1;6;1;19;3;1;170
+GDL-193;300;757;365;897;Mezquitan Country;3ra ETAPA;C. Hawai / C. Nicol·s Romero;Norte;Arroyo Vehicular;-103,35996;20,70211;15;0;969,3790052;0;0;6;2914,8903;881,5;8;0;0;14;3;0;0;1;3;1;1;4;0;3;216
+GDL-194;208;650;202;470;Atlas;3ra ETAPA;Av. RevoluciÛn / C. Manuel LÛpez Ve;Sur;Banqueta;-103,30999;20,65048;15;0;983,3927493;0;0;6;0;1427;14;17;5;37;0;0;0;3;1;4;0;12;0;1;180
+GDL-195;284;1221;335;1335;Guadalajara Centro;3ra ETAPA;C. RamÛn Corona / Av. Ju·rez;Poniente;Banqueta;-103,34656;20,67529;23;2;0;940,1437328;2;2;128050,4638;8299,5;38;21;1;96;14;2;38;13;1;9;0;5;4;14;336
+GDL-196;215;663;357;836;Guadalajara Centro;3ra ETAPA;C. Esmeralda / C. Manuel AcuÒa;Oriente;Arroyo Vehicular;-103,33756;20,68361;23;0;0;34,49005518;1;11;3936,7967;1145,5;14;3;2;14;1;0;0;2;1;3;0;5;1;2;390
+GDL-197;90;296;77;262;San Andres;3ra ETAPA;Av. RÌo Nilo / Av. RevoluciÛn;Sur;Arroyo Vehicular;-103,30313;20,64517;15;0;0;0;0;12;6482,7536;834;23;4;0;24;0;1;19;2;3;4;1;18;0;1;306
+GDL-198;1101;3170;1068;3150;Guadalajara Centro;3ra ETAPA;Av. Alcalde / C. Hospital;Poniente;Andador;-103,34796;20,68504;31;1;0;991,5742257;1;6;13692,9717;2476;14;2;2;47;15;1;19;1;5;4;0;14;1;2;330
+GDL-199;566;1389;615;1553;Mezquitan;0;C. Jes˙s GarcÌa/Av. Alcalde;0;0;0;0;15;0;0;991,8643648;0;8;8123,8709;1259,5;14;2;4;26;0;0;0;2;3;3;1;5;0;4;336
+GDL-200;736;1603;934;2161;Mezquitan;3ra ETAPA;Av. Alcalde / Av. Manuel Avila Camacho;Oriente;Banqueta;-103,34824;20,69406;23;1;170,1134556;1099,402598;1;8;2367,5982;2359,5;4;5;1;42;4;1;15;2;6;5;0;1;2;1;180
+GDL-201;105;313;212;645;Alcalde Barranquitas;3ra ETAPA;Av. de los Normalistas / C. M. Guti;Norte;Banqueta;-103,34474;20,69442;15;0;0;0;0;11;7058,2821;722;3;0;0;4;0;0;0;2;4;2;0;0;2;1;222
+GDL-202;344;945;451;925;Alcalde Barranquitas;3ra ETAPA;C. Magisterio / C. Durango;Oriente;Arroyo Vehicular;-103,34893;20,69898;15;0;0;0;0;3;0;3863,5;8;11;0;24;19;0;0;4;7;1;0;6;0;0;150
+GDL-203;203;573;354;738;Alcalde Barranquitas;3ra ETAPA;Av. Federalismo / C. Tamaulipas;Oriente;Banqueta;-103,35478;20,70046;23;2;1110,789978;0;2;5;3874,1301;1014,5;29;5;3;22;1;1;19;0;3;3;0;10;1;3;402
+GDL-204;298;781;210;822;Moderna - Fresno;3ra ETAPA;C. EspaÒa / Av. Chapultepec;Sur;Arroyo Vehicular;-103,36807;20,6651;23;0;826,3435844;0;0;9;14528,7746;1970;5;5;2;20;0;0;0;1;2;4;1;6;1;2;168
+GDL-205;140;534;150;604;Moderna - Fresno;3ra ETAPA;Av. AgustÌn Y·Òez /C. Venezuela;Sur;Banqueta;-103,36554;20,66265;15;0;991,3767927;0;0;7;0;2677,5;2;3;0;9;0;0;0;0;1;1;0;5;0;0;84
+GDL-206;174;618;202;530;Moderna - Fresno;3ra ETAPA;C. Suiza / Av. Enrique DÌaz de LeÛn;Sur;Arroyo Vehicular;-103,36011;20,66231;15;0;770,4878495;0;0;8;2755,4127;1472;4;4;0;8;2;0;0;1;2;1;0;6;1;3;194
+GDL-207;226;552;268;565;Moderna - Fresno;3ra ETAPA;C. L·zaro PÈrez / C. Escorza;Sur;Banqueta;-103,35802;20,66563;15;0;318,4874853;0;0;8;1748,1196;3076;19;10;1;27;2;0;0;0;1;3;0;9;1;3;228
+GDL-208;400;1207;427;1115;Moderna - Fresno;3ra ETAPA;Av. EspaÒa / Av. Federalismo;Sur;Arroyo Vehicular;-103,35704;20,66081;31;1;1748,538604;0;1;8;6574,0738;1810,5;8;1;1;9;1;0;0;0;1;0;0;0;0;0;194
+GDL-209;94;535;106;650;Moderna - Fresno;3ra ETAPA;Calz. del Campesino / Calz. Indepen;Norte;Banqueta;-103,3503245;20,6605183;19;0;4,541615498;0;0;4;103055,3198;1554;1;3;0;6;1;0;0;3;1;3;3;0;0;3;102
+GDL-210;300;1113;405;1132;Moderna - Fresno;3ra ETAPA;Av. Washington / Calz. Independencia;Norte;Banqueta;-103,35132;20,65775;31;0;1160,561894;0;1;5;40813,3786;982;3;2;1;2;1;0;0;1;0;0;0;0;0;0;128
+GDL-211;72;278;82;316;Moderna - Fresno;3ra ETAPA;Av. Washington / C. Rusia;Norte;Banqueta;-103,35468;20,65883;15;0;1358,790768;0;0;10;0;1772;9;1;0;9;0;0;0;2;0;0;0;0;0;0;192
+GDL-212;164;481;229;566;Mezquitan Country;3ra ETAPA;C. Nicol·s Romero / C. Jaime NunÛ;Sur;Arroyo Vehicular;-103,36158;20,70047;15;1;0;0;0;5;18972,3211;556;11;0;0;5;3;1;19;1;4;3;0;1;0;1;222
+ZPN-023;101;260;140;242;Zapopan Centro;1ra ETAPA;Blvrd. de la Espuela/ C. Silvano Barba;Sur;Arroyo Vehicular;-103,38763;20,73231;11;0;627,6318981;0;0;5;9991,0151;769;14;1;0;7;1;0;0;1;2;1;0;4;1;2;462
+ZPN-024;25;58;16;28;Zapopan Centro;1ra ETAPA;C. Francisco Sarabia / Av. Laureles;Poniente;Arroyo Vehicular;-103,3985614;20,73445;11;0;979,9351122;0;0;8;0;1263;9;2;0;6;1;1;11;1;5;0;0;4;0;1;138
+ZPN-048;349;910;300;977;El Vigia;3ra ETAPA;Av. J. Parres Arias / Prol. Lopez C;0;Camellon;-103,38859;20,72958;31;0;1659,154489;0;0;10;9572,0328;1625;25;9;2;25;3;1;19;0;0;1;0;4;1;3;208
+ZPN-049;190;323;216;485;Zoquipan;3ra ETAPA;Av. Avila Camacho/ Labaro Patrio;Norte;Banqueta;-103,38338;20,7178;15;0;992,3613675;0;0;2;0;567,5;4;4;1;5;0;0;0;1;3;3;0;6;0;2;60
+ZPN-050;50;109;79;171;El Vigia;3ra ETAPA;C. el Mediero/ Prol. Laureles;Norte;Arroyo Vehicular;-103,38427;20,73432;15;0;1590,167257;0;0;4;4826,4785;101;3;1;0;0;0;0;0;0;0;0;0;0;0;0;318
+ZPN-051;456;1589;518;1493;El Vigia;3ra ETAPA;Av. PerifÈrico G. MorÌn / Av. J. Parres A;Sur;Banqueta;-103,38057;20,73837;31;0;1701,490934;0;0;4;371,7517;879;0;3;0;0;1;0;0;2;0;6;0;1;4;0;54
+ZPN-052;45;41;27;48;El Vigia;3ra ETAPA;C. del Pial / C. del Vigia;Sur;Arroyo Vehicular;-103,39291;20,73245;15;0;754,4014167;0;0;2;506,6544;714;42;0;1;19;1;1;11;1;4;0;0;4;0;3;288
+ZPN-053;102;301;84;294;El Vigia;3ra ETAPA;Prol. Laureles / Av. PerifÈrico G.;Oriente;Arroyo Vehicular;-103,38299;20,73836;31;0;1997,75143;0;0;3;0;524,5;0;1;0;1;0;0;0;1;1;4;0;1;2;0;18
+ZPN-054;87;160;98;122;Zapopan Centro;3ra ETAPA;Av. J. Parres Arias/ Ignacio Jacobo;Oriente;Banqueta;-103,38079;20,73441;15;0;0;0;0;4;0;54;0;2;0;0;0;0;0;1;0;0;0;0;0;0;18
+ZPN-055;100;178;87;165;Zapopan Centro;3ra ETAPA;Prol. Laureles / Parres Arias;Oriente;Banqueta;-103,38515;20,73154;15;0;1593,980423;265,5097482;0;5;56647,4154;621;3;1;0;7;3;0;0;0;1;0;0;2;0;0;314
+ZPN-056;291;1066;390;1304;Zoquipan;3ra ETAPA;Av. Avila Camacho/ San Jorge;Sur;Banqueta;-103,37742;20,71365;15;0;991,859742;0;0;9;0;2196;9;19;0;20;0;0;0;2;2;1;0;2;0;2;80
+TLQ-008;54;194;33;118;Tlaquepaque Centro;2da ETAPA;C. Independencia / C. Allende;0;0;-103,3086;20,639187;15;0;0;0;0;8;4888,7107;2495;105;14;5;72;50;1;15;3;5;1;0;12;1;3;222
+GDL-217;333;864;187;872;Arcos - Vallarta;4ta ETAPA;C. Ontario / Av. Manuel AcuÒa;Oriente;Arroyo Vehicular;-103,383085;20,684519;19;0;0;0;0;5;4015,3576;979,5;3;1;0;3;1;0;0;0;3;0;0;34;0;0;188
+GDL-214;177;312;258;388;Mezquitan;4ta ETAPA;C. Chihuahua / C. Miguel Galindo;Sur;Arroyo Vehicular;-103,356511;20,702745;19;0;491,2793018;0;0;4;11082,4235;694;25;0;1;18;1;0;0;0;0;4;0;10;2;0;446
+GDL-223;77;205;88;224;San Juan de Dios;4ta ETAPA;C. Dr. Enrique PÈrez  Arce / C. ValentÌn GÛmez Farias;Poniente;Arroyo Vehicular;-103,326566;20,6679675;19;0;1328,723533;0;0;12;0;689,5;13;0;0;13;1;0;0;2;1;0;0;4;0;0;216
+ZPN-066;77;164;32;136;Camino Real;4ta ETAPA;Av. CuauhtÈmoc / Av. Tepeyac;Poniente;Arroyo Vehicular;-103,4086745;20,6609371;19;0;0;0;0;7;15883,172;810;3;0;0;11;0;0;0;3;0;2;0;24;0;2;158
+GDL-215;75;148;86;128;Mezquitan Country;4ta ETAPA;C. Durango / C. Gregorio D·vila;Sur;Arroyo Vehicular;-103,3599679;20,6991544;19;1;0;0;0;6;4721,6926;938;15;0;0;9;3;1;15;1;2;1;0;11;0;1;222
+ZPN-065;59;189;47;147;Camino Real;4ta ETAPA;C. Del Carmen / Av. Guadalupe;Norte;Arroyo Vehicular;-103,4109615;20,6649061;19;0;986,0936986;0;0;5;579,0428;576;1;0;1;7;0;1;15;1;1;4;1;21;0;1;226
+ZPN-064;44;190;48;153;Camino Real;4ta ETAPA;C. Sto de Aquino / Av. Sta Teresa;Sur;Arroyo Vehicular;-103,4133282;20,6669929;19;0;0;0;0;0;25575,1772;322,5;0;0;0;0;0;0;0;1;1;0;0;6;0;2;198
+ZPN-063;42;148;13;80;Camino Real;4ta ETAPA;C. San Felipe Neri / Av. Guadalupe;Poniente;Arroyo Vehicular;-103,4130582;20,6644831;15;0;988,3813026;0;0;4;22798,3469;1162;3;0;0;14;0;2;38;2;0;5;0;5;0;1;158
+GDL-216;135;431;147;374;Mezquitan;4ta ETAPA;C. Tepic / C. FrÌas;Sur;Arroyo Vehicular;-103,3592252;20,6964426;15;0;0;0;0;5;0;1050;32;2;2;32;0;0;0;1;1;3;0;18;0;1;222
+ZPN-067;198;565;211;515;Camino Real;4ta ETAPA;C. Chimalhuac·n / Av. LÛpez Mateos;Sur;Arroyo Vehicular;-103,4027691;20,6515919;19;0;0;0;0;7;0;5879;13;24;0;44;0;0;0;3;1;9;0;4;4;11;120
+ZPN-057;120;344;63;242;Camino Real;4ta ETAPA;C. Escultores / Av. Guadalupe;Poniente;Arroyo Vehicular;-103,4178168;20,6637066;15;0;992,4244635;0;0;2;0;406;2;1;0;2;0;0;0;0;2;3;0;10;0;0;120
+ZPN-062;50;142;19;121;Camino Real;4ta ETAPA;C. Loyola / C. OrganizaciÛn;Norte;Arroyo Vehicular;-103,4136351;20,6604258;19;0;0;0;0;4;9263,9013;378;4;0;0;4;0;1;19;0;2;0;0;1;0;0;132
+ZPN-061;117;222;77;125;Camino Real;4ta ETAPA;C. OrganizaciÛn / Av. Guadalupe;Oriente;Arroyo Vehicular;-103,4151424;20,6638448;19;0;994,8781559;0;0;3;3013,0565;1196,5;4;1;0;13;0;1;15;1;1;6;0;10;0;0;168
+ZPN-060;41;180;27;104;Camino Real;4ta ETAPA;C. De Los Leones / Av. Tepeyac;Poniente;Arroyo Vehicular;-103,41456;20,6587944;19;0;0;0;0;4;17129,5844;500,5;7;0;0;10;0;1;19;0;3;3;0;1;0;1;252
+GDL-224;32;88;56;121;San Juan de Dios;4ta ETAPA;C. Reyes Flores / C. Federico Medrano;Poniente;Arroyo Vehicular;-103,3266332;20,6649445;19;0;693,5792596;0;0;9;0;512,5;16;0;1;13;1;0;0;0;2;0;0;3;0;0;222
+GDL-222;43;161;43;148;San Juan de Dios;4ta ETAPA;C. Aldama / C. Dr. Leonardo Oliva;Sur;Arroyo Vehicular;-103,3295016;20,6674498;19;0;382,9047275;0;0;10;0;465,5;16;0;0;17;0;0;0;1;0;0;0;3;0;0;174
+ZPN-058;155;467;91;437;Camino Real;4ta ETAPA;Av. Labna / Av. Tepeyac;Poniente;Arroyo Vehicular;-103,4194212;20,656551;19;0;0;0;0;6;15069,5296;869;8;5;0;19;0;0;0;0;1;2;0;2;1;2;222
+ZPN-059;37;120;27;32;Camino Real;4ta ETAPA;C. Prado de los Pinos / Av. Tepeyac;Norte;Arroyo Vehicular;-103,4171896;20,6578996;15;0;0;0;0;7;8298,956;641;10;2;0;19;1;0;0;0;1;3;0;5;0;3;258
+GDL-218;189;360;109;325;Arcos - Vallarta;4ta ETAPA;C. HÈrcules / Av. de la Arboleda;Sur;Arroyo Vehicular;-103,3853111;20,664447;19;0;1219,533413;0;0;5;24803,5892;2856,5;3;5;0;15;2;0;0;3;2;4;0;8;0;2;150
+GDL-225;98;169;70;222;Atlas;4ta ETAPA;C. Gral Carlos Fuero / Av. RevoluciÛn;Oriente;Arroyo Vehicular;-103,3159228;20,6542657;19;1;982,7069893;0;1;5;1021,8952;543,5;8;1;0;8;0;0;0;1;2;1;0;5;0;0;372
+GDL-213;198;703;356;1068;Alcalde Barranquitas;4ta ETAPA;C. Palavicini / Av. CircunvalaciÛn;Poniente;Arroyo Vehicular;-103,345589;20,70467;19;1;0;0;0;5;2037,1268;1054,5;7;10;0;10;5;0;0;1;1;6;1;5;1;2;218
+GDL-221;186;429;278;574;Alcalde Barranquitas;4ta ETAPA;C. De los CientÌficos/ J. J. Tablada;Sur;Arroyo Vehicular;-103,345961;20,700192;23;0;0;0;0;1;0;1353,5;9;4;0;3;14;0;0;2;1;0;0;5;0;0;186
+GDL-226;45;203;28;114;Atlas;4ta ETAPA;C. Luis G. Cuevas / Av. RevoluciÛn;Oriente;Arroyo Vehicular;-103,312902;20,652408;15;1;985,7086285;0;1;3;0;681;4;5;1;17;0;0;0;0;1;3;0;7;1;0;228
+GDL-219;40;208;127;358;Alcalde Barranquitas;4ta ETAPA;C. D. Rivera / C. FilÛsofos;Norte;Arroyo Vehicular;-103,342554;20,698197;15;0;0;0;0;4;12027,3345;473;22;2;1;28;1;1;19;2;2;3;0;18;0;1;222
+GDL-227;102;359;306;698;Alcalde Barranquitas;4ta ETAPA;C. Artistas / C. Carlos Pereira;Sur;Arroyo Vehicular;-103,339378;20,695636;19;0;0;0;0;9;3527,1935;320,5;10;0;1;5;0;0;0;1;1;2;0;4;0;0;246

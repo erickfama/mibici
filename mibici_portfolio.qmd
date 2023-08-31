@@ -1,0 +1,409 @@
+---
+title: "Bike Sharing System Clustering"
+author: "Erick Fajardo"
+format: 
+  pdf:
+    fig-pos: "H"
+    fig-width: 6
+    fig-height: 4
+pdf-engine: xelatex
+execute: 
+  echo: false
+  warning: false
+fig-align: center
+geometry: 
+  - top=2cm
+  - bottom=2cm
+  - left=1.5cm
+  - right=1.5cm
+  
+mainfont: "Calibri"
+---
+
+```{r libraries, echo = FALSE, message = FALSE}
+# Librerias
+library(tidyverse)
+library(lubridate)
+library(sf)
+library(readxl)
+library(kableExtra)
+```
+
+```{r wrap-hook}
+library(knitr)
+hook_output = knit_hooks$get('output')
+knit_hooks$set(output = function(x, options) {
+  # this hook is used only when the linewidth option is not NULL
+  if (!is.null(n <- options$linewidth)) {
+    x = xfun::split_lines(x)
+    # any lines wider than n should be wrapped
+    if (any(nchar(x) > n)) x = strwrap(x, width = n)
+    x = paste(x, collapse = '\n')
+  }
+  hook_output(x, options)
+})
+```
+
+## Context
+
+Bike Sharing Systems (BSS) are a solution to traffic congestion. this systems are a service in which a user pays a fee to rent a bicycle for a short period of time. To accomplish this, these systems have a network of stations where users can pick up and return bycicles. 
+
+## Problem
+
+The logistics involved to achieve a correct geographical placement of new bycicle stations is a challenge. An improper location can lead people being unwilling to use the service. This, in turn, results in high economic costs for the service provider and social costs to the population due to underutilized infrastructure.
+
+## Objective 
+
+Analyze which are the main factors that influence the use of the BSS. The analysis is done by performing a clustering of bycicle stations to identify the individual characteristics of each station and to look out for differences in utilization between clusters. 
+
+This approach facilitate an examination of the factors that make them similar and how station usage varies across different clusters. This proves valuable in optimizing the placement of new stations or enhancing the efficiency of existing stations.
+
+## Data
+
+```{r read_data, echo = FALSE, message = FALSE}
+# Viajes
+trips_raw <- read_excel("./data/1_raw/datos_abiertos_2022_nov.xlsx") %>%
+  janitor::clean_names()
+names(trips_raw) <- c("trip_id", "user_id", "gender", "year_birth", "trip_start", "trip_end", "station_origin_id", "station_destination_id")
+
+# Info de las estaciones
+estaciones_info_raw <- read_csv("./data/3_clean/estaciones_info_clean.csv") %>%
+  janitor::clean_names()
+
+estaciones_alrededor <- read_delim("./data/2_interim/estaciones_alrededor.csv", delim = ";") %>%
+  janitor::clean_names() %>%
+  select(obcn = clave, puertos:last_col())
+
+estaciones_info_clean <- estaciones_info_raw %>%
+  left_join(estaciones_alrededor, by = "obcn") %>%
+  select(-starts_with("len"))
+```
+
+### BSS 
+
+The data used for this project is data from "MiBici" which is the BSS of the metropolitan area of Guadalajara, located in the state of Jalisco, Mexico. This BSS has 300 stations distributed across 3 municipalities: Guadalajara, Zapopan, and San Pedro Tlaquepaque.
+
+There are three datasets regarding the BSS: The trips dataset and the stations dataset.
+
+#### Trips
+
+The trips dataset contains data from trips carried out during November, 2022. In total, 381,192 trips were registered during that month. For each trip, it holds demographic data about the user, like his age and gender, and information about the trip, like the time when it started and ended, and the station where the trip was initiaded and the station where the trip ended. 
+
+```{r trips_head}
+trips_raw %>%
+  head() %>%
+  kable(booktabs = TRUE) %>%
+  kable_styling(latex_options = c("striped", "scale_down", "HOLD_position"))
+```
+
+#### Stations
+
+The stations dataset contains data from the stations, like their names, ids, coordinates, operating status, and type of buildings and places of interest like coffee shops, schools, grocery stores, etc.
+
+```{r stations_head}
+estaciones_info_clean %>%
+  select(id:puertos, abarrotes:bares, -location) %>%
+  head() %>%
+  kable(booktabs = TRUE) %>%
+  kable_styling(latex_options = c("striped", "scale_down", "HOLD_position"))
+```
+
+### Preprocessing
+
+#### Trips
+
+I needed to filter the dataset initially to consider only the trips that were registered during the week spanning from November 7th to November 13th, 2022. This time window was established because it doesn't include any holidays, thus avoiding the introduction of any disturbances caused by holidays.
+
+Then, calculate and categorize trip durations into 7 different categories:
+
+- 0 to 5 min
+- 6 to 10 min
+- 11 to 15 min
+- 16 to 30 min
+- 31 to 45 min
+- 46 to 60 min
+- More than 60 min
+
+The code is the following:
+
+```{r trips_preprocess, echo = TRUE, eval = TRUE, linewidth = 60}
+trips_clean <- trips_raw %>%
+  filter(station_origin_id != station_destination_id, # Filter fot week span
+         as_date(trip_start) >= "2022-11-07",
+         as_date(trip_end) < "2022-11-14") %>%
+  mutate(across(c("trip_start", "trip_end"), ~ as_datetime(.x)), # Convert to date
+         duration_trip = difftime(trip_end, trip_start, units = "mins"), 
+         time_schedule = ifelse(minute(trip_start) >= 55 & duration_trip > 5, 
+                                hour(trip_end), 
+                                hour(trip_start)), 
+         duration_trip_cut = factor(
+           case_when(duration_trip <= 5 ~ "0 to 5 min", # Categorize
+                     duration_trip > 5 & duration_trip <= 10 ~ "6 to 10 min",
+                     duration_trip > 10 & duration_trip <= 15 ~ "11 to 15 min",
+                     duration_trip > 15 & duration_trip <= 30 ~ "16 to 30 min",
+                     duration_trip > 30 & duration_trip <= 45 ~ "31 to 45 min",
+                     duration_trip > 45 & duration_trip <= 60 ~ "46 to 60 min", 
+                     duration_trip > 60 ~ "More than 60 min"), 
+           levels = c("0 to 5 min", 
+                      "6 to 10 min", 
+                      "11 to 15 min", 
+                      "16 to 30 min", 
+                      "31 to 45 min", 
+                      "46 to 60 min", 
+                      "More than 60 min")),
+         gender = factor(gender, levels = c("M", "F", "NULL"), 
+                      labels = c("Male", "Female", "NULL"))) %>%
+  filter(duration_trip > 5 & duration_trip < 360 &
+           hour(trip_start) %in% c(0, seq(5, 23, 1)))
+```
+
+This is the trips clean dataset:
+
+```{r trips_clean_head}
+trips_clean %>%
+  head() %>%
+  kable(booktabs = TRUE) %>%
+  kable_styling(latex_options = c("striped", "scale_down", "HOLD_position"))
+```
+
+## Exploratory Data Analysis
+
+```{r load_data, echo = FALSE}
+estaciones_clean <- read_csv("./data/3_clean/estacionhorapc.csv")
+
+viajes_clean <- readRDS("./data/3_clean/viajes_clean.RDS") %>%
+  mutate(dia = str_replace(wday(inicio_del_viaje, label = TRUE), "\\\\.", ""),
+         dia = factor(dia, levels = c("lun", "mar", "mié", "jue", "vie", "sáb", "dom"), 
+                      labels = c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")))
+
+# Formato para los graficos
+
+th <- theme(
+      plot.title = element_text(size = 12, hjust = 0.5),
+      plot.subtitle = element_text(size = 10),
+      axis.text.x = element_text(size = 10),
+      axis.title.x = element_text(size = 10),
+      axis.text.y = element_text(size = 10),
+      axis.title.y = element_text(size = 10),
+      legend.text = element_text(size = 8),
+      legend.title = element_text(size = 10),
+      panel.grid.major.x = element_blank(),
+      panel.grid.minor.x = element_blank()
+)
+```
+
+First lets check if there are missing values (NAs) in the trips dataset. The following graph show us the abscense of NAs. 
+
+```{r na_check}
+#| fig-align: center
+
+# NAs
+trips_clean %>%
+  summarise(across(everything(), ~ sum(is.na(.x)))) %>%
+  pivot_longer(everything(), names_to = "variable", values_to = "NA_sum") %>%
+  ggplot(aes(NA_sum, variable)) +
+  geom_bar(stat = "identity", col = "red", fill = "red", alpha = 0.3) + 
+  scale_x_continuous(limits = c(0, nrow(trips_clean))) + 
+  labs(title = "Amount of NAs in trips dataset",
+       x = "NA count",
+       y = "Variable") + 
+  theme_bw() # No hay NAs
+```
+
+The same situation for the stations dataset.
+
+```{r}
+#| fig-align: center
+# NAs
+estaciones_info_clean %>%
+  summarise(across(everything(), ~ sum(is.na(.x)))) %>%
+  pivot_longer(everything(), names_to = "variable", values_to = "NA_sum") %>%
+  ggplot(aes(NA_sum, variable)) +
+  geom_bar(stat = "identity", col = "red", fill = "red", alpha = 0.3) + 
+  scale_x_continuous(limits = c(0, nrow(trips_clean))) + 
+  labs(title = "Amount of NAs in stations dataset",
+       x = "NA count",
+       y = "Variable") + 
+  theme_bw() # No hay NAs
+```
+
+Now, the following map represent the geographical distribution of the stations, and we can see that the stations are distributed across the three municipalities.Also, a large amount is concentrated in the center of Guadalajara.
+
+```{r map_stations, warning = FALSE, message=FALSE, results='hide'}
+#| fig-align: center
+estaciones_info_clean <- estaciones_info_clean %>%
+  st_as_sf(coords = c("longitude", "latitude"), crs = 4326) %>%
+  st_set_crs(4326)
+
+jalisco <- st_read("./data/maps/jalisco/14mun.shp") %>% 
+  st_transform(crs = 4326) %>%
+  filter(NOMGEO %in% c("Guadalajara", "San Pedro Tlaquepaque", "Zapopan"))
+ 
+jalisco %>%
+  st_crop(ymin = 20.62, ymax = 20.75, xmin = -103.45, xmax = -103.2) %>%
+  ggplot() +
+  geom_sf(aes(fill = NOMGEO)) +
+  scale_fill_manual(name = "Municipality", values = c("Guadalajara" = "#088da5", "San Pedro Tlaquepaque" = "#a5088d", "Zapopan" = "#8da508")) + 
+  geom_sf(data = estaciones_info_clean %>% select(geometry) , color = "#2008a5", size = 0.4) +
+  labs(title = "Stations across the Guadalajara Metropolitan Area", 
+       subtitle = "Total number of stations = 300") +
+  theme_bw() +
+  th
+```
+
+The following table shows descriptive statistics from the 10 most popular locations of interest around the stations. We can appreciate that, on average, the most popular locations are green areas (area_verde), restaurants (comidacafe), and grocery stores (abarrotes)
+
+```{r around}
+estaciones_info_clean %>%
+  select(-geometry) %>%
+  as_data_frame() %>%
+    select(transmas:superdepa) %>%
+    pivot_longer(everything(), names_to = "Variable", values_to = "Valores") %>%
+    group_by(Variable) %>%
+    summarise(Min = min(Valores),
+              Mean = round(mean(Valores)), 
+              Max = max(Valores),
+              SD = round(sd(Valores))) %>%
+    arrange(desc(Mean)) %>%
+  filter(Variable != "pobocup" & Variable != "puertmibici") %>%
+  head(10) %>%
+  kable(booktabs = TRUE) %>%
+  kable_styling(latex_options = c("striped", "HOLD_position"))
+```
+
+
+Now, lets see what are the most popular schedules per day. We can see an obvious pattern where from Monday to Friday the most popular schedules are around 6 to 9 am and 17 to 19 pm. On the other hand, weekends tend to shift more to schedules around 12 pm. 
+
+```{r}
+#| fig-align: center
+viajes_clean <- trips_clean %>%
+  mutate(dia = str_replace(wday(trip_start, label = TRUE), "\\\\.", ""),
+         dia = factor(dia, levels = c("lun", "mar", "mié", "jue", "vie", "sáb", "dom"), 
+                      labels = c("Monday", "Tuesday", "Wednesday", "Thursay", "Friday", "Saturday", "Sunday")))
+
+viajes_clean %>%
+  ggplot(aes(time_schedule, fill = dia)) + 
+  geom_histogram(bins = 24, color = "#fdc820", size = 0.5) + 
+  scale_x_continuous(breaks = seq(0, 23, 3), guide = guide_axis(n.dodge = 2)) +
+  scale_fill_discrete(guide = "none") +
+  facet_wrap(~dia) + 
+  labs(title = "Trip frequencies per day",
+       subtitle = glue::glue("Period: {as_date(min(viajes_clean$trip_start))} : {as_date(max(viajes_clean$trip_start))}"),
+       x = "Hour",
+       y = "Amount of trips") + 
+  theme_bw() +
+  th + 
+  theme(axis.text.x = element_text(size = 8))
+
+```
+
+Finally, lets see the distribution of the duration of the trips. It is possible to identify that most trips have a short or medium duration, ranging from 6 to 10 min, up to 16 to 30 minutes, and this pattern is constant across the week.
+
+```{r, trip_duration}
+#| fig-align: center
+viajes_clean %>%
+  ggplot(aes(duration_trip_cut, fill = dia)) +
+  geom_histogram(stat = "count", color = "#fdc820", size = 0.5) +
+  scale_y_continuous(limits = c(0, 7500)) + 
+  scale_x_discrete(guide = guide_axis(n.dodge = 2)) +
+  scale_fill_discrete(guide = "none") +
+  facet_wrap(~dia) + 
+  labs(title = "Trip time duration per day",
+       x = "",
+       y = "Amount of trips") +
+  theme_bw() + 
+  th + 
+  theme(axis.text.x = element_text(angle = 5, size = 6),
+        axis.text.y = element_text(size = 8))
+```
+
+## Clustering
+
+The K-Means algorithm was applied to group the stations into clusters. The reasons of the selection of this algorithm are the followings: 1) It is easy to understand and implement, and 2) Provides good results according to previous studies. 
+
+The implementation was done using Python 3.9, and the selection of the number of clusters was done by utilizing the elbow method.
+
+![](./figs/elbow_method.png){width=60% fig-align="center"}
+
+According to the results of the elbow method, the number of clusters was determined to be 4. These clustering results are displayed on the following map.
+
+Clusters 0 (cyan) and 3 (magenta) have a presence in all three municipalities, while cluster 1 (green) is only present in Guadalajara and Zapopan. Stations affiliated with cluster 2 (yellow) are predominantly situated in the historic center of Guadalajara and in close proximity to the city's three light rail lines.
+
+```{r, message=FALSE, results='hide'}
+#| fig-align: center
+# Lectura ----
+clusters <- read_csv("./data/3_clean/estaciones_clusters.csv")
+estaciones <- read_csv("./data/3_clean/estacionhorapc.csv")
+
+lel <- estaciones_info_clean %>%
+  filter(id != 201) %>%
+  left_join(clusters %>% select(id, cluster), by = "id") %>%
+  mutate(cluster = factor(cluster, levels = c("0", "1", "2", "3"))) %>%
+  st_as_sf(coords = c("longitude", "latitude"), crs = 4326, agr = "constant") 
+# Formato grafico
+
+# Colores de clusters
+cluster_col <- c("0" = "#00ffff", "1" = "#48fe71", "2" = "#fecc48", "3" = "#ee0c5b")
+
+
+jalisco <- st_read("./data/maps/jalisco/14mun.shp") %>% 
+  st_transform(crs = 4326) %>%
+  filter(NOMGEO %in% c("Guadalajara", "San Pedro Tlaquepaque", "Zapopan"))
+ 
+jalisco %>%
+  st_crop(ymin = 20.62, ymax = 20.75, xmin = -103.45, xmax = -103.2) %>%
+  ggplot() +
+  geom_sf(aes(fill = NOMGEO)) +
+  scale_fill_manual(name = "Municipio", values = c("Guadalajara" = "#088da5", "San Pedro Tlaquepaque" = "#a5088d", "Zapopan" = "#8da508")) + 
+  geom_sf(data = lel, aes(color = cluster), size = 0.4) +
+  scale_color_manual(name = "Cluster", values = cluster_col) + 
+  labs(title = "Clusters of stations") +
+  theme_bw() +
+  th
+```
+
+Finally, the graph below illustrates the average number of points of interest around stations within each cluster. The most notable aspect is that stations affiliated with clusters 1 and 2 demonstrate a higher average count of restaurants (comidacafe) and bicycle ports (puertmibici), as indicated by bars surpassing the dashed lines (red for restaurants and blue for station bicycle ports).
+
+```{r}
+#| fig-align: center
+medias <- estaciones %>%
+  select(id, everything(), -contains("ini"), -contains("fin"), -area_averde, -pobocup) %>%
+  left_join(clusters %>% select(id, cluster), by = "id") %>%
+  select(-id) %>%
+  mutate(cluster = factor(cluster)) %>%
+  pivot_longer(-cluster, names_to = "Variable", values_to = "Valores") %>%
+  group_by(Variable) %>%
+  summarise(media = mean(Valores))
+
+estaciones %>%
+  select(id, everything(), -contains("ini"), -contains("fin"), -area_averde, -pobocup) %>%
+  left_join(clusters %>% select(id, cluster), by = "id") %>%
+  select(-id) %>%
+  mutate(cluster = factor(cluster)) %>%
+  pivot_longer(-cluster, names_to = "Variable", values_to = "Valores") %>%
+  group_by(cluster, Variable) %>%
+  summarise(freq = sum(Valores)/n()) %>%
+  ggplot(aes(Variable, freq, fill = cluster)) +
+  geom_bar(stat = "identity", col = "grey") +
+  geom_hline(aes(yintercept = medias$media[which(medias$Variable == "comidacafe")], linetype = "Restaurants"), col = "red") + 
+  geom_hline(aes(yintercept = medias$media[which(medias$Variable == "puertmibici")], linetype = "Bicycle Ports"), col = "blue") +
+  scale_linetype_manual(name = "Global Means", values = c(2, 2), 
+                        guide = guide_legend(override.aes = list(color = c("blue", "red")))) +
+  facet_wrap(~cluster) + 
+  scale_fill_manual(name = "Cluster", values = cluster_col) + 
+  labs(title = "Locations of interest around the stations by cluster",
+       x = "Location type", 
+       y = "Frequency") +
+  theme_bw() +
+  th +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) 
+```
+
+## Conclusion
+
+Through the geographical analysis of the clusters, it was discovered that cluster 2 is concentrated in the historic center of Guadalajara. Furthermore, it can be observed that stations belonging to this cluster experience higher arrival numbers on Friday afternoons and Saturdays at noon.
+
+When attempting to identify differences between the clusters based on locations around them, it becomes challenging to determine the characteristics that differentiate the clusters to a significant extent. This is because, in general, they exhibit similar patterns of being situated near restaurants or grocery store locations. Nonetheless, as depicted in the last figure, clusters 1 and 2 are the stations located close to restaurants and boast a quantity of ports that surpasses the overall cluster average.
+
+
+
